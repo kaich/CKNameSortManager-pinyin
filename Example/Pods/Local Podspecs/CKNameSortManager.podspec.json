@@ -1,0 +1,26 @@
+{
+  "name": "CKNameSortManager",
+  "version": "0.1.0",
+  "summary": "CKNameSortManager 作用于UITableView中文进行索引",
+  "description": "                        CKNameSortManager 作用于UITableView中文进行索引 ，基本功能已经具有，主要目的在于简化代码编写过程。\n",
+  "homepage": "https://github.com/kaich/CKNameSortManager-pinyin",
+  "license": "MIT",
+  "authors": {
+    "kaich": "chengkai1853@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kaich/CKNameSortManager-pinyin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CKNameSortManager": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
+}

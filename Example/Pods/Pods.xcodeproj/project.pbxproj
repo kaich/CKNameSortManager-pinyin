@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05201FCD2C206B045DACB3BC /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = F92C29BECD2920CB7C522DC1 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6CE2092E72317A8BCF8F73 /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = F92C29BECD2920CB7C522DC1 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CCA390006482798EA162C8 /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */; };
+		1CBEB502839AA600B5A56EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
+		32F8C4F207939AFF1C1A5C2C /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 27363AEC616E66760036C298 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3740F162B7A40C579C9F4D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
+		387A382AE2CF5A9FD86DFBF1 /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */; };
+		39FEB286B8B9C1231E273CF0 /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */; };
+		3FFC569E4047EB7EFEC8A62A /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3CB294BB624809535D7FFB /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		465732D69B52B706E4D54D21 /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3CB294BB624809535D7FFB /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636F11FF6651044039324436 /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */; };
+		66C2DEFAB3CA7F9556A071AB /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */; };
+		6A9DC14A77B9E16481D27BF4 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */; };
+		7406E1BC18C63A1FFA1459E7 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */; };
+		7592F2CF0053C1046A293ECE /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 27363AEC616E66760036C298 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		792149F1135FDF85A50D0BAA /* Pods-CKNameSortManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */; };
+		8505C6670E6D9A046C288DDE /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */; };
+		87324AA9EE67E7E078BBE569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
+		87466ACA5B61596EE2081508 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E61F9620D4F97C353FEC908 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */; };
+		92771130C780EFA673B635BE /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */; };
+		A1F262D3D9DB3A6B630A7CDB /* Pods-CKNameSortManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8F67E660BAB0B09632BCE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
+		BA87F21FC0DC1AF7D0D8BB3D /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */; };
+		C35CFBF8FB07D4585A612E6C /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB7F2630A625CB08DC93C592 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		374AC31ECCD50D008E751B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C684F82D790CC5426853A78D;
+			remoteInfo = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
+		};
+		3A5AE8136B04E448589AD910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35274A8D441085EE6381A1A1;
+			remoteInfo = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
+		};
+		BDC9C2EEBCB409A7724F39CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68AE78C163114B476ABB2C6;
+			remoteInfo = "Pods-CKNameSortManager_Example-CKNameSortManager";
+		};
+		F1B18957C98AEB8AECBB6593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7871F95F85D458381F2E72;
+			remoteInfo = "Pods-CKNameSortManager_Tests-CKNameSortManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E33924260CA74608CFB49B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKNameSortManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27363AEC616E66760036C298 /* CKNameIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKNameIndex.h; sourceTree = "<group>"; };
+		28CA3AECDC5039912C848E3B /* Pods-CKNameSortManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Example.modulemap"; sourceTree = "<group>"; };
+		2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig"; sourceTree = "<group>"; };
+		2F56987871AEAE6CB59C3CA7 /* Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch"; sourceTree = "<group>"; };
+		3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h"; sourceTree = "<group>"; };
+		484D3A722C769A5309F0CB5C /* Pods-CKNameSortManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-resources.sh"; sourceTree = "<group>"; };
+		4AC6242C6CA6AEE2CD78AC9F /* Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig"; sourceTree = "<group>"; };
+		5D329ADBCF83F7B116A3E3AB /* Pods-CKNameSortManager_Example-CKNameSortManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Example-CKNameSortManager.modulemap"; sourceTree = "<group>"; };
+		600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m"; sourceTree = "<group>"; };
+		65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig"; sourceTree = "<group>"; };
+		6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKNameSortManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKNameSortManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m"; sourceTree = "<group>"; };
+		6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		710DFEED8E51F68B59E904BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7791851EEBF1C904CDC676D0 /* Pods-CKNameSortManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A3CB294BB624809535D7FFB /* CKNameSortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKNameSortManager.h; sourceTree = "<group>"; };
+		7EEED637C113B1FCAFD0361C /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		84F988A9C8C2ACC6A6AE8773 /* Pods-CKNameSortManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		86CFDC078CBE69197B186C2E /* Pods-CKNameSortManager_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Tests-environment.h"; sourceTree = "<group>"; };
+		88C8D360FF34C3D62460F31B /* Pods-CKNameSortManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h"; sourceTree = "<group>"; };
+		95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKNameSortManager.m; sourceTree = "<group>"; };
+		97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DDEB8C0A3FCFEB935E8652 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F036EAD88C93BA86BEDB63 /* Pods-CKNameSortManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKNameIndex.m; sourceTree = "<group>"; };
+		BCCE93C2B64975C895FDC7C8 /* Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap"; sourceTree = "<group>"; };
+		C3585CF03CE707A9EF6B36A4 /* Pods-CKNameSortManager_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-environment.h"; sourceTree = "<group>"; };
+		C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CD19D791E36429F4894A7DFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist"; sourceTree = "<group>"; };
+		D6CD4D67348D34EDDCA68F68 /* Pods-CKNameSortManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D9E1281E16FE9890C34313A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKNameSortManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E704DC29F7719D0E1DFF1CA0 /* Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch"; sourceTree = "<group>"; };
+		E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Example-dummy.m"; sourceTree = "<group>"; };
+		E93D9C3DC025F402567D6F81 /* Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig"; sourceTree = "<group>"; };
+		E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC6F3CDCC06B89202E5F81C /* Pods-CKNameSortManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F32F7BB2B5153ABE485BBBCE /* Pods-CKNameSortManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Tests.modulemap"; sourceTree = "<group>"; };
+		F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKPinyin.m; sourceTree = "<group>"; };
+		F66EE7BE11A6943BB2C366AC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F92C29BECD2920CB7C522DC1 /* CKPinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKPinyin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13749CC3042C7CFFFBF2F1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F67E660BAB0B09632BCE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C0215BCC61068C80AF28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ADB30CF958F003EA194FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827B4FF913D7C3D4CD16D43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBEB502839AA600B5A56EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E832C4F25523A2D4AD80CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87324AA9EE67E7E078BBE569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5BC9E32D240892557B4627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3740F162B7A40C579C9F4D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEBAD1569E58D19B0B303DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26E01CE4B5D6CCF2B1C1F71 /* CKNameSortManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		13E222E3A20968CDFCED02E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D460C4BEDB4EDE4367F6E4A5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2424BC41920486F8CE86BE7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */,
+				E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */,
+				0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */,
+				6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */,
+				97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */,
+				E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341379979472D1C5BF6C07B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97DDEB8C0A3FCFEB935E8652 /* Info.plist */,
+				CD19D791E36429F4894A7DFE /* Info.plist */,
+				5D329ADBCF83F7B116A3E3AB /* Pods-CKNameSortManager_Example-CKNameSortManager.modulemap */,
+				4AC6242C6CA6AEE2CD78AC9F /* Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig */,
+				65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */,
+				600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */,
+				E704DC29F7719D0E1DFF1CA0 /* Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch */,
+				9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */,
+				BCCE93C2B64975C895FDC7C8 /* Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap */,
+				E93D9C3DC025F402567D6F81 /* Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig */,
+				2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */,
+				6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */,
+				2F56987871AEAE6CB59C3CA7 /* Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch */,
+				3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager";
+			sourceTree = "<group>";
+		};
+		696DD1E092E9397DB3F972FD = {
+			isa = PBXGroup;
+			children = (
+				F66EE7BE11A6943BB2C366AC /* Podfile */,
+				0FEBAD1569E58D19B0B303DA /* Development Pods */,
+				C79FB83268F0101C32EB0947 /* Frameworks */,
+				2424BC41920486F8CE86BE7A /* Products */,
+				A71C3E83ABEAAEB01F275530 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6AE85211BBEFB759B005A071 /* Pods-CKNameSortManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				710DFEED8E51F68B59E904BE /* Info.plist */,
+				F32F7BB2B5153ABE485BBBCE /* Pods-CKNameSortManager_Tests.modulemap */,
+				7EEED637C113B1FCAFD0361C /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */,
+				7791851EEBF1C904CDC676D0 /* Pods-CKNameSortManager_Tests-acknowledgements.plist */,
+				860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */,
+				86CFDC078CBE69197B186C2E /* Pods-CKNameSortManager_Tests-environment.h */,
+				D6CD4D67348D34EDDCA68F68 /* Pods-CKNameSortManager_Tests-frameworks.sh */,
+				88C8D360FF34C3D62460F31B /* Pods-CKNameSortManager_Tests-resources.sh */,
+				C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */,
+				6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */,
+				8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-CKNameSortManager_Tests";
+			path = "Target Support Files/Pods-CKNameSortManager_Tests";
+			sourceTree = "<group>";
+		};
+		A173CC0EAD78EB986F91D71E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1281E16FE9890C34313A0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A71C3E83ABEAAEB01F275530 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9230A968CE8FCF57B55A37 /* Pods-CKNameSortManager_Example */,
+				6AE85211BBEFB759B005A071 /* Pods-CKNameSortManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C79FB83268F0101C32EB0947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A173CC0EAD78EB986F91D71E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC9230A968CE8FCF57B55A37 /* Pods-CKNameSortManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00E33924260CA74608CFB49B /* Info.plist */,
+				28CA3AECDC5039912C848E3B /* Pods-CKNameSortManager_Example.modulemap */,
+				EDC6F3CDCC06B89202E5F81C /* Pods-CKNameSortManager_Example-acknowledgements.markdown */,
+				84F988A9C8C2ACC6A6AE8773 /* Pods-CKNameSortManager_Example-acknowledgements.plist */,
+				E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */,
+				C3585CF03CE707A9EF6B36A4 /* Pods-CKNameSortManager_Example-environment.h */,
+				98F036EAD88C93BA86BEDB63 /* Pods-CKNameSortManager_Example-frameworks.sh */,
+				484D3A722C769A5309F0CB5C /* Pods-CKNameSortManager_Example-resources.sh */,
+				0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */,
+				E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */,
+				AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */,
+			);
+			name = "Pods-CKNameSortManager_Example";
+			path = "Target Support Files/Pods-CKNameSortManager_Example";
+			sourceTree = "<group>";
+		};
+		D460C4BEDB4EDE4367F6E4A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27363AEC616E66760036C298 /* CKNameIndex.h */,
+				B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */,
+				7A3CB294BB624809535D7FFB /* CKNameSortManager.h */,
+				95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */,
+				F92C29BECD2920CB7C522DC1 /* CKPinyin.h */,
+				F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F26E01CE4B5D6CCF2B1C1F71 /* CKNameSortManager */ = {
+			isa = PBXGroup;
+			children = (
+				13E222E3A20968CDFCED02E0 /* Pod */,
+				341379979472D1C5BF6C07B6 /* Support Files */,
+			);
+			name = CKNameSortManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B5F93566B42C102977A5AED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7592F2CF0053C1046A293ECE /* CKNameIndex.h in Headers */,
+				465732D69B52B706E4D54D21 /* CKNameSortManager.h in Headers */,
+				0D6CE2092E72317A8BCF8F73 /* CKPinyin.h in Headers */,
+				EB7F2630A625CB08DC93C592 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528ABF7CBC4E440FCE78CE9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8C4F207939AFF1C1A5C2C /* CKNameIndex.h in Headers */,
+				3FFC569E4047EB7EFEC8A62A /* CKNameSortManager.h in Headers */,
+				05201FCD2C206B045DACB3BC /* CKPinyin.h in Headers */,
+				C35CFBF8FB07D4585A612E6C /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5728D814CBA14E23E6F0F090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87466ACA5B61596EE2081508 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE5CF9A564C30E892C06E9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F262D3D9DB3A6B630A7CDB /* Pods-CKNameSortManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64347AC721CD096FBFD651E1 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager" */;
+			buildPhases = (
+				A84A072398A99CD85DDBD365 /* Sources */,
+				46C0215BCC61068C80AF28E7 /* Frameworks */,
+				3670199F5F2850A7C1DDCA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
+			productName = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
+			productReference = 6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73AD2A1EE771F4A56F2413E5 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager" */;
+			buildPhases = (
+				BD86DB512D2B18F64C69003A /* Sources */,
+				827B4FF913D7C3D4CD16D43B /* Frameworks */,
+				6F5B07020AD8414728396355 /* Resources */,
+				528ABF7CBC4E440FCE78CE9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8193F39E59E2959FEE7BECDB /* PBXTargetDependency */,
+			);
+			name = "Pods-CKNameSortManager_Tests-CKNameSortManager";
+			productName = "Pods-CKNameSortManager_Tests-CKNameSortManager";
+			productReference = 6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B869ACDBD26351AC90A826D7 /* Pods-CKNameSortManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8B9BDB4CB4DB835F41697E /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */;
+			buildPhases = (
+				B6DE3C43E1C0EC139555B11A /* Sources */,
+				8E832C4F25523A2D4AD80CD8 /* Frameworks */,
+				5728D814CBA14E23E6F0F090 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE118879824061959627F1E /* PBXTargetDependency */,
+			);
+			name = "Pods-CKNameSortManager_Tests";
+			productName = "Pods-CKNameSortManager_Tests";
+			productReference = E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4D560AF358C37AF19CC92BF /* Pods-CKNameSortManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248358334C9BD2F288E3FC3 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */;
+			buildPhases = (
+				A55B495B12AE6F765930BBB5 /* Sources */,
+				FD5BC9E32D240892557B4627 /* Frameworks */,
+				6DE5CF9A564C30E892C06E9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9DAF7DF22AD81EBF0EBADB /* PBXTargetDependency */,
+			);
+			name = "Pods-CKNameSortManager_Example";
+			productName = "Pods-CKNameSortManager_Example";
+			productReference = 97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC545FA4E3489F1AEC9185B /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager" */;
+			buildPhases = (
+				2E0E9F4CF4CE4176014DB01E /* Sources */,
+				57ADB30CF958F003EA194FB5 /* Frameworks */,
+				B051650C58C3FBC98EF7F8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
+			productName = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
+			productReference = E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C76653A974D4A90819FCCB /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager" */;
+			buildPhases = (
+				B9908BB08A1CCC3BF707DAB2 /* Sources */,
+				13749CC3042C7CFFFBF2F1D5 /* Frameworks */,
+				7D553BF922A57CCB61435DBE /* Resources */,
+				3B5F93566B42C102977A5AED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79B8C42DA5C9030A7B7532F /* PBXTargetDependency */,
+			);
+			name = "Pods-CKNameSortManager_Example-CKNameSortManager";
+			productName = "Pods-CKNameSortManager_Example-CKNameSortManager";
+			productReference = 0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E9C99608A656EC49BB1BBF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 25456994AC75BC849B00D96F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 696DD1E092E9397DB3F972FD;
+			productRefGroup = 2424BC41920486F8CE86BE7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D560AF358C37AF19CC92BF /* Pods-CKNameSortManager_Example */,
+				E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */,
+				C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */,
+				B869ACDBD26351AC90A826D7 /* Pods-CKNameSortManager_Tests */,
+				3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */,
+				35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3670199F5F2850A7C1DDCA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5B07020AD8414728396355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEB286B8B9C1231E273CF0 /* CKNameSortManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D553BF922A57CCB61435DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C2DEFAB3CA7F9556A071AB /* CKNameSortManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B051650C58C3FBC98EF7F8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0E9F4CF4CE4176014DB01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B495B12AE6F765930BBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792149F1135FDF85A50D0BAA /* Pods-CKNameSortManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84A072398A99CD85DDBD365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DE3C43E1C0EC139555B11A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E61F9620D4F97C353FEC908 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9908BB08A1CCC3BF707DAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8505C6670E6D9A046C288DDE /* CKNameIndex.m in Sources */,
+				6A9DC14A77B9E16481D27BF4 /* CKNameSortManager.m in Sources */,
+				636F11FF6651044039324436 /* CKPinyin.m in Sources */,
+				11CCA390006482798EA162C8 /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86DB512D2B18F64C69003A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387A382AE2CF5A9FD86DFBF1 /* CKNameIndex.m in Sources */,
+				7406E1BC18C63A1FFA1459E7 /* CKNameSortManager.m in Sources */,
+				BA87F21FC0DC1AF7D0D8BB3D /* CKPinyin.m in Sources */,
+				92771130C780EFA673B635BE /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE118879824061959627F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CKNameSortManager_Tests-CKNameSortManager";
+			target = 3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */;
+			targetProxy = F1B18957C98AEB8AECBB6593 /* PBXContainerItemProxy */;
+		};
+		8193F39E59E2959FEE7BECDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
+			target = 35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */;
+			targetProxy = 3A5AE8136B04E448589AD910 /* PBXContainerItemProxy */;
+		};
+		B79B8C42DA5C9030A7B7532F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
+			target = C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */;
+			targetProxy = 374AC31ECCD50D008E751B91 /* PBXContainerItemProxy */;
+		};
+		BB9DAF7DF22AD81EBF0EBADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CKNameSortManager_Example-CKNameSortManager";
+			target = E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */;
+			targetProxy = BDC9C2EEBCB409A7724F39CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0725B52DEE4FCA9ED1B1B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0871CEA3DD95932D4FF833EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2123EBB51F7EA0B47FE2EDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3171B852982914228BB3BD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CKNameSortManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AE5C3C5CD1975539E26D98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CKNameSortManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6091747D78D57F1F7E3C9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8464CCBC80E2DB4ED8A3A646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CKNameSortManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C1F76EC23752E4EFDA4D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B122632B06E179E548CAE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93DC0A8C626BF988D93DD276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CKNameSortManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0C9CFB78A85C0042EF9E66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B479C908270C82254F010ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E90391C28541D2B52995CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F60F097E17067973522B3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2248358334C9BD2F288E3FC3 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5C3C5CD1975539E26D98B /* Debug */,
+				3171B852982914228BB3BD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25456994AC75BC849B00D96F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2123EBB51F7EA0B47FE2EDC6 /* Debug */,
+				0871CEA3DD95932D4FF833EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C76653A974D4A90819FCCB /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C1F76EC23752E4EFDA4D18 /* Debug */,
+				E90391C28541D2B52995CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64347AC721CD096FBFD651E1 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6091747D78D57F1F7E3C9A11 /* Debug */,
+				0725B52DEE4FCA9ED1B1B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73AD2A1EE771F4A56F2413E5 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60F097E17067973522B3E50 /* Debug */,
+				8B122632B06E179E548CAE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8B9BDB4CB4DB835F41697E /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8464CCBC80E2DB4ED8A3A646 /* Debug */,
+				93DC0A8C626BF988D93DD276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC545FA4E3489F1AEC9185B /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B479C908270C82254F010ACA /* Debug */,
+				B0C9CFB78A85C0042EF9E66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+}
