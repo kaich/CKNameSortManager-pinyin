@@ -25,6 +25,6 @@ typedef NSPredicate *(^DataSourceFilterBlock)();
 -(void) beginSortNameIndex:(DataSourceSortCompleteBlock) completeBlock;
 
 //filter function
--(void) beginFilterNameIndexWithContainName:(NSString*) propertyName completeBlock:(DataSourceSortCompleteBlock) completeBlock;
+-(void) beginFilterNameIndexWithName:(NSString*) propertyName value:(id) value completeBlock:(DataSourceSortCompleteBlock) completeBlock;
 -(void) endFilterNameWithCompleteBlock:(DataSourceSortCompleteBlock) completeBlock;
 @end
