@@ -25,6 +25,7 @@
     if(self)
     {
         self.dataSourceTarget = target;
+        self.tableView = tabelView;
         tabelView.dataSource = self;
     }
 
@@ -132,7 +133,7 @@
 }
 
 
--(NSArray *) finalOriginalDataSource
+-(NSArray *) finalDataSource
 {
     return self.filteredFinalDataSource ?: self.finalOriginalDataSource;
 }

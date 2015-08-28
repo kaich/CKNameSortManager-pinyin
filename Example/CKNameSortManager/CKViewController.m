@@ -9,9 +9,10 @@
 #import "CKViewController.h"
 #import <CKNameSortManager/CKNameSortManager.h>
 
-@interface CKViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface CKViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic,strong) CKNameSortManager * manager;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchbar;
 @end
 
 @implementation CKViewController
@@ -37,12 +38,24 @@
     [self.manager beginSortNameIndex:^(NSArray *finalDataSource) {
         [self.tableView reloadData];
     }];
+    
+    self.searchbar.showsCancelButton = YES;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [self.manager beginFilterNameIndexWithName:@"name" value:self.searchbar.text completeBlock:nil];
+}
+
+-(void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    [self.manager endFilterNameWithCompleteBlock:nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

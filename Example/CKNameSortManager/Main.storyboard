@@ -19,23 +19,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="MTW-5j-so0">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="whP-gf-Uak" id="WYY-cb-U0Y"/>
                                     <outlet property="delegate" destination="whP-gf-Uak" id="sVc-VN-uVk"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="B05-Ca-Fjb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="clF-pv-ep4"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MTW-5j-so0" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="-16" id="37S-zh-zuZ"/>
+                            <constraint firstItem="MTW-5j-so0" firstAttribute="top" secondItem="B05-Ca-Fjb" secondAttribute="bottom" id="Ilt-fj-B3Y"/>
+                            <constraint firstItem="B05-Ca-Fjb" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="topMargin" id="LZ0-f1-ZSg"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="MTW-5j-so0" secondAttribute="bottom" id="NOC-ur-PU0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MTW-5j-so0" secondAttribute="trailing" constant="-16" id="RNT-vi-0qw"/>
+                            <constraint firstItem="B05-Ca-Fjb" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="-16" id="bfh-dC-5zS"/>
                             <constraint firstItem="MTW-5j-so0" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="topMargin" id="cbp-tL-sCZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="B05-Ca-Fjb" secondAttribute="trailing" constant="-16" id="ye0-H0-aJd"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cbp-tL-sCZ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
+                        <outlet property="searchbar" destination="B05-Ca-Fjb" id="7wq-uN-gMb"/>
                         <outlet property="tableView" destination="MTW-5j-so0" id="INV-wu-gRa"/>
                     </connections>
                 </viewController>
