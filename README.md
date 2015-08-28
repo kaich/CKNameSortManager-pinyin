@@ -31,7 +31,7 @@ CKNameSortManager is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "CKNameSortManager"
+pod 'CKNameSortManager', :git => 'https://github.com/kaich/CKNameSortManager-pinyin.git'
 ```
 
 
