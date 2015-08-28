@@ -101,8 +101,13 @@
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
         
-        NSPredicate * predicate = [NSPredicate predicateWithFormat:@"SUBQUERY(%K , $content, $content contains[cd] %@).@count > 0",propertyName,value];
-        self.filteredFinalDataSource = [self.finalDataSource filteredArrayUsingPredicate:predicate];
+        NSMutableArray * tmpFilteredArray = [NSMutableArray array];
+        for (NSArray * sectionArray in self.finalOriginalDataSource) {
+            NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K contains[cd] %@",propertyName,value];
+            NSArray * filteredSectionArray = [sectionArray filteredArrayUsingPredicate:predicate];
+            [tmpFilteredArray addObject:filteredSectionArray];
+        }
+        self.filteredFinalDataSource = tmpFilteredArray;
         
         dispatch_async(dispatch_get_main_queue(), ^(void) {
             if(completeBlock)
