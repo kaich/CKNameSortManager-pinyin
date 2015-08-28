@@ -12,6 +12,8 @@
 @interface CKNameSortManager ()<UITableViewDataSource>
 @property(nonatomic,weak) id<UITableViewDataSource>  dataSourceTarget;
 @property(nonatomic,weak) UITableView * tableView;
+@property(nonatomic,strong) NSArray * filteredFinalDataSource;
+@property(nonatomic,strong) NSArray * finalOriginalDataSource;
 @end
 
 @implementation CKNameSortManager
@@ -75,12 +77,12 @@
             }
             [sortedArray addObject:sortedOriginalArray];
         }
-        _finalDataSource = sortedArray;
+        self.finalOriginalDataSource = sortedArray;
         
         dispatch_async(dispatch_get_main_queue(), ^(void) {
             if(completeBlock)
             {
-                completeBlock(_finalDataSource);
+                completeBlock(self.finalOriginalDataSource);
             }
             else
             {
@@ -92,6 +94,48 @@
 
 }
 
+
+-(void) beginFilterNameIndexWithName:(NSString*) propertyName value:(id) value completeBlock:(DataSourceSortCompleteBlock) completeBlock
+{
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
+        
+        NSPredicate * predicate = [NSPredicate predicateWithFormat:@"SUBQUERY(%K , $content, $content contains[cd] %@).@count > 0",propertyName,value];
+        self.filteredFinalDataSource = [self.finalDataSource filteredArrayUsingPredicate:predicate];
+        
+        dispatch_async(dispatch_get_main_queue(), ^(void) {
+            if(completeBlock)
+            {
+                completeBlock(self.filteredFinalDataSource);
+            }
+            else
+            {
+                [self.tableView reloadData];
+            }
+        });
+    });
+
+}
+
+
+-(void) endFilterNameWithCompleteBlock:(DataSourceSortCompleteBlock) completeBlock
+{
+    self.filteredFinalDataSource = nil;
+    if(completeBlock)
+    {
+        completeBlock(self.finalOriginalDataSource);
+    }
+    else
+    {
+        [self.tableView reloadData];
+    }
+}
+
+
+-(NSArray *) finalOriginalDataSource
+{
+    return self.filteredFinalDataSource ?: self.finalOriginalDataSource;
+}
 
 #pragma mark - UITableView datasource
 -(NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView{
