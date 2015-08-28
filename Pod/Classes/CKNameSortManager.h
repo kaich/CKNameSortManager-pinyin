@@ -11,12 +11,14 @@
 typedef id (^ DataSourceBlock)(NSInteger index);
 typedef NSUInteger (^ DataSourceCountBlock)();
 typedef void(^DataSourceSortCompleteBlock)(NSArray * finalDataSource);
+typedef NSString* (^ DataSourceKeywordBlock)(id  name);
 
 @interface CKNameSortManager : NSObject
 @property(nonatomic, strong, readonly) NSArray * finalDataSource;
 
 @property(nonatomic, copy) DataSourceBlock  dataSourceItemBlock;
 @property(nonatomic, copy) DataSourceCountBlock  dataSourceCountBlock;
+@property(nonatomic, copy) DataSourceKeywordBlock dataSourceKeywordsBlock;
 
 -(instancetype) initWithTableView:(UITableView *) tabelView target:(id<UITableViewDataSource>) target;
 -(void) beginSortNameIndex:(DataSourceSortCompleteBlock) completeBlock;

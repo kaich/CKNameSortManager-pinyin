@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NSString* (^ KeywordBlock)(NSString * name);
+typedef NSString* (^ KeywordBlock)(id name);
 
 @interface CKNameIndex : NSObject
 

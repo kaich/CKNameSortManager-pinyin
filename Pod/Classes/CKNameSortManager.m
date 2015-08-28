@@ -42,6 +42,7 @@
             CKNameIndex *item = [[CKNameIndex alloc] init];
             item.name = self.dataSourceItemBlock(i);
             item.originalIndex = i;
+            item.keywordsBlock = self.dataSourceKeywordsBlock;
             [tmpNameIndexArray addObject:item];
         }
         

@@ -23,13 +23,16 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSArray * nameArray = @[@"白飞",@"andy",@"张冲",@"林峰",@"kylin",@"王磊",@"emily",@"陈标",@"billy",@"韦丽"];
+    NSArray * nameArray = @[@{@"name":@"白飞"},@{@"name":@"andy"},@{@"name":@"张冲"},@{@"name":@"林峰"},@{@"name":@"kylin"},@{@"name":@"王磊"},@{@"name":@"emily"},@{@"name":@"陈标"},@{@"name":@"billy"},@{@"name":@"韦丽"}];
     self.manager = [[CKNameSortManager alloc] initWithTableView:self.tableView target:self];
     self.manager.dataSourceItemBlock = ^(NSInteger index){
         return nameArray[index];
     };
     self.manager.dataSourceCountBlock = ^(){
         return nameArray.count;
+    };
+    self.manager.dataSourceKeywordsBlock = ^(NSDictionary * dic){
+        return dic[@"name"];
     };
     [self.manager beginSortNameIndex:^(NSArray *finalDataSource) {
         [self.tableView reloadData];
@@ -55,7 +58,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text =self.manager.finalDataSource[indexPath.section][indexPath.row];
+    cell.textLabel.text =self.manager.finalDataSource[indexPath.section][indexPath.row][@"name"];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryNone;
     

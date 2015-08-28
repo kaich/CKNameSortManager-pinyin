@@ -17,10 +17,10 @@
     NSString *  originalName = self.name;
     if(self.keywordsBlock)
     {
-       originalName = self.keywordsBlock(self.name.copy);
+       originalName = self.keywordsBlock(self.name);
     }
     for (NSInteger i = 0; i<originalName.length; i++) {
-        NSString * keyword = [originalName substringToIndex:1];
+        NSString * keyword = [originalName substringWithRange:NSMakeRange(i, 1)];
         NSString * aleph = [self getAleph:keyword];
         [results appendString:aleph];
     }
