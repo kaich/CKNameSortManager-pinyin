@@ -46,14 +46,11 @@
             item.name = self.dataSourceItemBlock(i);
             item.originalIndex = i;
             item.keywordsBlock = self.dataSourceKeywordsBlock;
+            NSInteger sect = [collation sectionForObject:item collationStringSelector:@selector(keywordAleph)];
+            item.sectionIndex = sect;
             [tmpNameIndexArray addObject:item];
         }
         
-        //config item section
-        for (CKNameIndex *item in tmpNameIndexArray) {
-            NSInteger sect = [collation sectionForObject:item collationStringSelector:@selector(keywordAleph)];
-            item.sectionIndex = sect;
-        }
         
         //return 27，a－z and ＃
         NSInteger highSection = [[collation sectionTitles] count];
