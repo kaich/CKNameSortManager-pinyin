@@ -95,12 +95,17 @@
 
 -(void) beginFilterNameIndexWithName:(NSString*) propertyName value:(id) value completeBlock:(DataSourceSortCompleteBlock) completeBlock
 {
-    
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K contains[cd] %@",propertyName,value];
+    [self beginFilterNameIndexWithPredicate:predicate completeBlock:completeBlock];
+}
+
+
+-(void) beginFilterNameIndexWithPredicate:(NSPredicate *)predicate  completeBlock:(DataSourceSortCompleteBlock)completeBlock
+{
     dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
         
         NSMutableArray * tmpFilteredArray = [NSMutableArray array];
         for (NSArray * sectionArray in self.finalOriginalDataSource) {
-            NSPredicate * predicate = [NSPredicate predicateWithFormat:@"%K contains[cd] %@",propertyName,value];
             NSArray * filteredSectionArray = [sectionArray filteredArrayUsingPredicate:predicate];
             [tmpFilteredArray addObject:filteredSectionArray];
         }
@@ -117,7 +122,6 @@
             }
         });
     });
-
 }
 
 

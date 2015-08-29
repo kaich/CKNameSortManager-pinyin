@@ -22,9 +22,27 @@ typedef NSPredicate *(^DataSourceFilterBlock)();
 @property(nonatomic, copy) DataSourceKeywordBlock dataSourceKeywordsBlock;
 
 -(instancetype) initWithTableView:(UITableView *) tabelView target:(id<UITableViewDataSource>) target;
+/**
+ *  begin sort
+ *
+ *  @param completeBlock sort complete block
+ */
 -(void) beginSortNameIndex:(DataSourceSortCompleteBlock) completeBlock;
 
 //filter function
+/**
+ *  begin filter.If property and value condition isn't suitable for you, you can use predication to filter
+ *
+ *  @param propertyName   filter  model property name
+ *  @param value          property value, default action is contain
+ *  @param completeBlock  filter complete block
+ */
 -(void) beginFilterNameIndexWithName:(NSString*) propertyName value:(id) value completeBlock:(DataSourceSortCompleteBlock) completeBlock;
+-(void) beginFilterNameIndexWithPredicate:(NSPredicate *)predicate  completeBlock:(DataSourceSortCompleteBlock)completeBlock;
+/**
+ *  end filter
+ *
+ *  @param completeBlock end filter complete block
+ */
 -(void) endFilterNameWithCompleteBlock:(DataSourceSortCompleteBlock) completeBlock;
 @end
