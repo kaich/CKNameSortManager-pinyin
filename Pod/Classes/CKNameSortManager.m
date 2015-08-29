@@ -146,30 +146,58 @@
 
 #pragma mark - UITableView datasource
 -(NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView{
-    NSMutableArray * existTitles = [NSMutableArray array];
-    NSArray * allTitles = [[UILocalizedIndexedCollation currentCollation]sectionTitles];
-    for (int i=0; i<[allTitles count]; i++) {
-        if ([[self.finalDataSource objectAtIndex:i] count] > 0) {
-            [existTitles addObject:[allTitles objectAtIndex:i]];
-        }
+    if([self.dataSourceTarget respondsToSelector:@selector(sectionIndexTitlesForTableView:)])
+    {
+        return [self.dataSourceTarget sectionIndexTitlesForTableView:tableView];
     }
-    return existTitles;
+    else
+    {
+        NSMutableArray * existTitles = [NSMutableArray array];
+        NSArray * allTitles = [[UILocalizedIndexedCollation currentCollation]sectionTitles];
+        for (int i=0; i<[allTitles count]; i++) {
+            if ([[self.finalDataSource objectAtIndex:i] count] > 0) {
+                [existTitles addObject:[allTitles objectAtIndex:i]];
+            }
+        }
+        return existTitles;
+    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return [self.finalDataSource count];
+    if([self.dataSourceTarget respondsToSelector:@selector(numberOfSectionsInTableView:)])
+    {
+        return [self.dataSourceTarget numberOfSectionsInTableView:tableView];
+    }
+    else
+    {
+        return [self.finalDataSource count];
+    }
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
-        return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
+    if([self.dataSourceTarget respondsToSelector:@selector(tableView:titleForFooterInSection:)])
+    {
+        return [self.dataSourceTarget tableView:tableView titleForFooterInSection:section];
     }
-    return nil;
+    else
+    {
+        if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
+            return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
+        }
+        return nil;
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return [[UILocalizedIndexedCollation currentCollation] sectionForSectionIndexTitleAtIndex:index];
+    if([self.dataSourceTarget respondsToSelector:@selector(tableView:sectionForSectionIndexTitle:atIndex:)])
+    {
+        return [self.dataSourceTarget tableView:tableView sectionForSectionIndexTitle:title atIndex:index];
+    }
+    else
+    {
+        return [[UILocalizedIndexedCollation currentCollation] sectionForSectionIndexTitleAtIndex:index];
+    }
 }
 
 #pragma mark - forward
