@@ -175,9 +175,9 @@
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    if([self.dataSourceTarget respondsToSelector:@selector(tableView:titleForFooterInSection:)])
+    if([self.dataSourceTarget respondsToSelector:@selector(tableView:titleForHeaderInSection:)])
     {
-        return [self.dataSourceTarget tableView:tableView titleForFooterInSection:section];
+        return [self.dataSourceTarget tableView:tableView titleForHeaderInSection:section];
     }
     else
     {
