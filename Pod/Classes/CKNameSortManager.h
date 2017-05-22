@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 typedef id (^ DataSourceBlock)(NSInteger index);
-typedef NSUInteger (^ DataSourceCountBlock)();
+typedef NSInteger (^ DataSourceCountBlock)();
 typedef void(^DataSourceSortCompleteBlock)(NSArray * finalDataSource);
 typedef NSString* (^ DataSourceKeywordBlock)(id  name);
 typedef NSPredicate *(^DataSourceFilterBlock)();
