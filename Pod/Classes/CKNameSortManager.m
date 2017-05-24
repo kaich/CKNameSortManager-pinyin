@@ -135,9 +135,10 @@
             {
                 if(filterBlock(model) == true)
                 {
-                    [tmpFilteredArray addObject:filteredSectionArray];
+                    [filteredSectionArray addObject:model];
                 }
             }
+            [tmpFilteredArray addObject:filteredSectionArray];
         }
         self.filteredFinalDataSource = tmpFilteredArray;
         
