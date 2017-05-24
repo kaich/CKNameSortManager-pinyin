@@ -123,6 +123,36 @@
         });
     });
 }
+    
+-(void) beginFilterNameIndexWithBlock:(DataSourceFilterBlock )filterBlock  completeBlock:(DataSourceSortCompleteBlock)completeBlock
+{
+    dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
+        
+        NSMutableArray * tmpFilteredArray = [NSMutableArray array];
+        for (NSArray * sectionArray in self.finalOriginalDataSource) {
+            NSMutableArray * filteredSectionArray = [NSMutableArray array];
+            for(id model in sectionArray)
+            {
+                if(filterBlock(model) == true)
+                {
+                    [tmpFilteredArray addObject:filteredSectionArray];
+                }
+            }
+        }
+        self.filteredFinalDataSource = tmpFilteredArray;
+        
+        dispatch_async(dispatch_get_main_queue(), ^(void) {
+            if(completeBlock)
+            {
+                completeBlock(self.filteredFinalDataSource);
+            }
+            else
+            {
+                [self.tableView reloadData];
+            }
+        });
+    });
+}
 
 
 -(void) endFilterNameWithCompleteBlock:(DataSourceSortCompleteBlock) completeBlock

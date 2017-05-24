@@ -12,7 +12,7 @@ typedef id (^ DataSourceBlock)(NSInteger index);
 typedef NSInteger (^ DataSourceCountBlock)();
 typedef void(^DataSourceSortCompleteBlock)(NSArray * finalDataSource);
 typedef NSString* (^ DataSourceKeywordBlock)(id  name);
-typedef NSPredicate *(^DataSourceFilterBlock)();
+typedef BOOL (^DataSourceFilterBlock)(id model);
 
 @interface CKNameSortManager : NSObject
 @property(nonatomic, strong, readonly) NSArray * finalDataSource;
@@ -39,6 +39,7 @@ typedef NSPredicate *(^DataSourceFilterBlock)();
  */
 -(void) beginFilterNameIndexWithName:(NSString*) propertyName value:(id) value completeBlock:(DataSourceSortCompleteBlock) completeBlock;
 -(void) beginFilterNameIndexWithPredicate:(NSPredicate *)predicate  completeBlock:(DataSourceSortCompleteBlock)completeBlock;
+-(void) beginFilterNameIndexWithBlock:(DataSourceFilterBlock )filterBlock  completeBlock:(DataSourceSortCompleteBlock)completeBlock;
 /**
  *  end filter
  *
