@@ -22,7 +22,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
 @property(nonatomic,weak) UITableView * tableView;
 @property(nonatomic,strong) NSArray * filteredFinalDataSource;
 @property(nonatomic,strong) NSArray * finalOriginalDataSource;
-@property(nonatomic,strong) NSArray * groupTitles;
+@property(nonatomic,readonly) NSArray * groupTitles;
 @end
 
 @implementation CKNameSortManager
@@ -112,17 +112,8 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
         
         NSMutableArray * tmpNameIndexArray = [NSMutableArray  array];
         //config original datasource
-        NSMutableSet * groupSet = [NSMutableSet set];
-        for (NSInteger i = 0; i< self.dataSourceCountBlock(); i++) {
-            CKNameIndex *item = [[CKNameIndex alloc] init];
-            item.name = self.dataSourceItemBlock(i);
-            item.originalIndex = i;
-            item.keywordsBlock = self.dataSourceKeywordsBlock;
-            [groupSet addObject: item.keywords];
-        }
-        
-        NSArray * groupArray = [groupSet allObjects];
-        self.groupTitles = groupArray;
+
+        NSArray * groupArray = self.groupTitles;
         for (NSInteger i = 0; i< self.dataSourceCountBlock(); i++) {
             CKNameIndex *item = [[CKNameIndex alloc] init];
             item.name = self.dataSourceItemBlock(i);
@@ -133,7 +124,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
         }
         
         
-        //27 sections
+        //group sections
         NSMutableArray *sectionArrays = [NSMutableArray arrayWithCapacity:groupArray.count];
         for (int i=0; i<groupArray.count; i++) {
             NSMutableArray *sectionArray = [NSMutableArray arrayWithCapacity:1];
@@ -167,6 +158,22 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
             }
         });
     });
+}
+
+
+-(NSArray *) groupTitles
+{
+    NSMutableSet * groupSet = [NSMutableSet set];
+   
+    for (NSInteger i = 0; i< self.dataSourceCountBlock(); i++) {
+        CKNameIndex *item = [[CKNameIndex alloc] init];
+        item.name =  self.dataSourceItemBlock(i);
+        item.originalIndex = i;
+        item.keywordsBlock = self.dataSourceKeywordsBlock;
+        [groupSet addObject: item.keywords];
+    }
+    
+    return [groupSet allObjects];
 }
 
 
@@ -260,6 +267,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
     }
     else
     {
+        //Only Name Index Need Right Side Index
         if(_sortType == kNameIndex)
         {
             NSMutableArray * existTitles = [NSMutableArray array];
@@ -273,7 +281,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
         }
         else
         {
-            return self.groupTitles;
+            return nil;
         }
     }
 }
@@ -296,16 +304,17 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
     }
     else
     {
-        if(_sortType == kNameIndex)
-        {
-            if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
+        if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
+            if(_sortType == kNameIndex)
+            {
                 return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
             }
+            else if(_sortType == kNameGroup)
+            {
+                return [[self groupTitles] objectAtIndex:section];
+            }
         }
-        else if(_sortType == kNameGroup)
-        {
-            return [self.groupTitles objectAtIndex:section];
-        }
+        
         return nil;
     }
 }
