@@ -11,14 +11,20 @@
 
 @implementation CKNameIndex
 
--(NSString *) keywordAleph
+-(NSString *) keywords
 {
-    NSMutableString * results = [NSMutableString string];
     NSString *  originalName = self.name;
     if(self.keywordsBlock)
     {
        originalName = self.keywordsBlock(self.name);
     }
+    return  originalName;
+}
+
+-(NSString *) keywordAleph
+{
+    NSMutableString * results = [NSMutableString string];
+    NSString *  originalName = self.keywords;
     for (NSInteger i = 0; i<originalName.length; i++) {
         NSString * keyword = [originalName substringWithRange:NSMakeRange(i, 1)];
         NSString * aleph = [self getAleph:keyword];

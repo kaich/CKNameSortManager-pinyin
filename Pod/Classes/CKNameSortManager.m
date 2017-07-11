@@ -9,11 +9,20 @@
 #import "CKNameSortManager.h"
 #import "CKNameIndex.h"
 
+typedef NS_ENUM(NSUInteger, CKSortType) {
+    kNameIndex,
+    kNameGroup
+};
+
 @interface CKNameSortManager ()<UITableViewDataSource>
+{
+    CKSortType _sortType;
+}
 @property(nonatomic,weak) id<UITableViewDataSource>  dataSourceTarget;
 @property(nonatomic,weak) UITableView * tableView;
 @property(nonatomic,strong) NSArray * filteredFinalDataSource;
 @property(nonatomic,strong) NSArray * finalOriginalDataSource;
+@property(nonatomic,strong) NSArray * groupTitles;
 @end
 
 @implementation CKNameSortManager
@@ -24,6 +33,7 @@
     self = [super init];
     if(self)
     {
+        _sortType = kNameIndex;
         self.dataSourceTarget = target;
         self.tableView = tabelView;
         tabelView.dataSource = self;
@@ -36,6 +46,7 @@
 -(void) beginSortNameIndex:(DataSourceSortCompleteBlock)completeBlock
 {
     
+    _sortType = kNameIndex;
     dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
         UILocalizedIndexedCollation *collation = [UILocalizedIndexedCollation currentCollation];
         
@@ -90,6 +101,72 @@
     });
 
 
+}
+
+
+-(void) beginSortNameGroup:(DataSourceSortCompleteBlock) completeBlock
+{
+    _sortType = kNameGroup;
+    dispatch_async(dispatch_get_global_queue(0, 0), ^(void) {
+        UILocalizedIndexedCollation *collation = [UILocalizedIndexedCollation currentCollation];
+        
+        NSMutableArray * tmpNameIndexArray = [NSMutableArray  array];
+        //config original datasource
+        NSMutableSet * groupSet = [NSMutableSet set];
+        for (NSInteger i = 0; i< self.dataSourceCountBlock(); i++) {
+            CKNameIndex *item = [[CKNameIndex alloc] init];
+            item.name = self.dataSourceItemBlock(i);
+            item.originalIndex = i;
+            item.keywordsBlock = self.dataSourceKeywordsBlock;
+            [groupSet addObject: item.keywords];
+        }
+        
+        NSArray * groupArray = [groupSet allObjects];
+        self.groupTitles = groupArray;
+        for (NSInteger i = 0; i< self.dataSourceCountBlock(); i++) {
+            CKNameIndex *item = [[CKNameIndex alloc] init];
+            item.name = self.dataSourceItemBlock(i);
+            item.originalIndex = i;
+            item.keywordsBlock = self.dataSourceKeywordsBlock;
+            item.sectionIndex = [groupArray indexOfObject:item.keywords];
+            [tmpNameIndexArray addObject:item];
+        }
+        
+        
+        //27 sections
+        NSMutableArray *sectionArrays = [NSMutableArray arrayWithCapacity:groupArray.count];
+        for (int i=0; i<groupArray.count; i++) {
+            NSMutableArray *sectionArray = [NSMutableArray arrayWithCapacity:1];
+            [sectionArrays addObject:sectionArray];
+        }
+        //add to section array
+        for (CKNameIndex *item in tmpNameIndexArray) {
+            [(NSMutableArray *)[sectionArrays objectAtIndex:item.sectionIndex] addObject:item];
+        }
+        //sort
+        NSMutableArray * sortedArray = [NSMutableArray array];
+        for (NSMutableArray *sectionArray in sectionArrays) {
+            NSArray *sortedSection = [collation sortedArrayFromArray:sectionArray collationStringSelector:@selector(keywordAleph)];
+            NSMutableArray * sortedOriginalArray = [NSMutableArray array];
+            for (CKNameIndex * emNameIndex in sortedSection) {
+                id originalItem = self.dataSourceItemBlock(emNameIndex.originalIndex);
+                [sortedOriginalArray  addObject:originalItem];
+            }
+            [sortedArray addObject:sortedOriginalArray];
+        }
+        self.finalOriginalDataSource = sortedArray;
+        
+        dispatch_async(dispatch_get_main_queue(), ^(void) {
+            if(completeBlock)
+            {
+                completeBlock(self.finalOriginalDataSource);
+            }
+            else
+            {
+                [self.tableView reloadData];
+            }
+        });
+    });
 }
 
 
@@ -183,14 +260,21 @@
     }
     else
     {
-        NSMutableArray * existTitles = [NSMutableArray array];
-        NSArray * allTitles = [[UILocalizedIndexedCollation currentCollation]sectionTitles];
-        for (int i=0; i<[allTitles count]; i++) {
-            if ([[self.finalDataSource objectAtIndex:i] count] > 0) {
-                [existTitles addObject:[allTitles objectAtIndex:i]];
+        if(_sortType == kNameIndex)
+        {
+            NSMutableArray * existTitles = [NSMutableArray array];
+            NSArray * allTitles = [[UILocalizedIndexedCollation currentCollation]sectionTitles];
+            for (int i=0; i<[allTitles count]; i++) {
+                if ([[self.finalDataSource objectAtIndex:i] count] > 0) {
+                    [existTitles addObject:[allTitles objectAtIndex:i]];
+                }
             }
+            return existTitles;
         }
-        return existTitles;
+        else
+        {
+            return self.groupTitles;
+        }
     }
 }
 
@@ -212,8 +296,15 @@
     }
     else
     {
-        if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
-            return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
+        if(_sortType == kNameIndex)
+        {
+            if ([[self.finalDataSource objectAtIndex:section] count] > 0) {
+                return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
+            }
+        }
+        else if(_sortType == kNameGroup)
+        {
+            return [self.groupTitles objectAtIndex:section];
         }
         return nil;
     }

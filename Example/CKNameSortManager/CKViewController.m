@@ -30,7 +30,7 @@
         return nameArray[index];
     };
     self.manager.dataSourceCountBlock = ^(){
-        return nameArray.count;
+        return (NSInteger)nameArray.count;
     };
     self.manager.dataSourceKeywordsBlock = ^(NSDictionary * dic){
         return dic[@"name"];
@@ -38,6 +38,9 @@
     [self.manager beginSortNameIndex:^(NSArray *finalDataSource) {
         [self.tableView reloadData];
     }];
+//    [self.manager beginSortNameGroup:^(NSArray *finalDataSource) {
+//        [self.tableView reloadData];
+//    }];
     
     self.searchbar.showsCancelButton = YES;
 }

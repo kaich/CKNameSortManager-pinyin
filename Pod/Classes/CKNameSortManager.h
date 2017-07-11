@@ -23,11 +23,18 @@ typedef BOOL (^DataSourceFilterBlock)(id model);
 
 -(instancetype) initWithTableView:(UITableView *) tabelView target:(id<UITableViewDataSource>) target;
 /**
- *  begin sort
+ *  begin sort with name index
  *
  *  @param completeBlock sort complete block
  */
 -(void) beginSortNameIndex:(DataSourceSortCompleteBlock) completeBlock;
+
+/**
+ *  begin sort with name group. The grouped name is the section header title
+ *
+ *  @param completeBlock sort complete block
+ */
+-(void) beginSortNameGroup:(DataSourceSortCompleteBlock) completeBlock;
 
 //filter function
 /**

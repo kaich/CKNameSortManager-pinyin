@@ -15,7 +15,10 @@ typedef NSString* (^ KeywordBlock)(id name);
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic, assign) NSInteger sectionIndex;
 @property (nonatomic, assign) NSInteger originalIndex;
+
 @property(nonatomic, readonly) NSString * keywordAleph;
+@property(nonatomic, readonly) NSString * keywords;
 
 @property(nonatomic, copy) KeywordBlock keywordsBlock;
+
 @end
