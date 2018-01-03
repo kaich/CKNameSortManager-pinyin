@@ -86,6 +86,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
             }
             [sortedArray addObject:sortedOriginalArray];
         }
+        
         self.finalOriginalDataSource = sortedArray;
         
         dispatch_async(dispatch_get_main_queue(), ^(void) {
@@ -270,14 +271,8 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
         //Only Name Index Need Right Side Index
         if(_sortType == kNameIndex)
         {
-            NSMutableArray * existTitles = [NSMutableArray array];
             NSArray * allTitles = [[UILocalizedIndexedCollation currentCollation]sectionTitles];
-            for (int i=0; i<[allTitles count]; i++) {
-                if ([[self.finalDataSource objectAtIndex:i] count] > 0) {
-                    [existTitles addObject:[allTitles objectAtIndex:i]];
-                }
-            }
-            return existTitles;
+            return allTitles;
         }
         else
         {
