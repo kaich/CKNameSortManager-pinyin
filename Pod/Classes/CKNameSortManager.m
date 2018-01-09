@@ -328,7 +328,13 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
 
 #pragma mark - forward
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.dataSourceTarget tableView:tableView numberOfRowsInSection:section];
+    if([self.dataSourceTarget respondsToSelector:@selector(numberOfSectionsInTableView:)])
+    {
+        return [self.dataSourceTarget numberOfSectionsInTableView:tableView];
+    }
+    else {
+        return [[self.finalDataSource objectAtIndex:section] count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
