@@ -11,7 +11,8 @@
 
 typedef NS_ENUM(NSUInteger, CKSortType) {
     kNameIndex,
-    kNameGroup
+    kNameGroup,
+    kOrder,
 };
 
 @interface CKNameSortManager ()<UITableViewDataSource>
@@ -161,6 +162,25 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
     });
 }
 
+
+-(void) beginSortOrder:(DataSourceOrderBlock) orderBlock
+{
+    _sortType = kOrder;
+    NSMutableArray * originArray = [NSMutableArray array];
+    for(int i = 0; i < self.dataSourceCountBlock(); i++) {
+        id item = self.dataSourceItemBlock(i);
+        [originArray addObject:item];
+    }
+    NSArray *sortedArray = [originArray sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        if(orderBlock)
+        {
+            BOOL result = orderBlock(obj1 , obj2);
+            return result ? NSOrderedAscending : NSOrderedDescending;
+        }
+        return NSOrderedDescending;
+    }];
+    self.finalOriginalDataSource = @[sortedArray];
+}
 
 -(NSArray *) groupTitles
 {
@@ -328,9 +348,9 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
 
 #pragma mark - forward
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if([self.dataSourceTarget respondsToSelector:@selector(numberOfSectionsInTableView:)])
+    if([self.dataSourceTarget respondsToSelector:@selector(tableView:numberOfRowsInSection:)])
     {
-        return [self.dataSourceTarget numberOfSectionsInTableView:tableView];
+        return [self.dataSourceTarget tableView:tableView numberOfRowsInSection:section];
     }
     else {
         return [[self.finalDataSource objectAtIndex:section] count];

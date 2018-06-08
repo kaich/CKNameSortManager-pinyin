@@ -11,6 +11,7 @@
 typedef id (^ DataSourceBlock)(NSInteger index);
 typedef NSInteger (^ DataSourceCountBlock)();
 typedef void(^DataSourceSortCompleteBlock)(NSArray * finalDataSource);
+typedef BOOL(^DataSourceOrderBlock)(id left, id right);
 typedef NSString* (^ DataSourceKeywordBlock)(id  name);
 typedef BOOL (^DataSourceFilterBlock)(id model);
 
@@ -35,6 +36,13 @@ typedef BOOL (^DataSourceFilterBlock)(id model);
  *  @param completeBlock sort complete block
  */
 -(void) beginSortNameGroup:(DataSourceSortCompleteBlock) completeBlock;
+
+/**
+ *  begin sort with order. The grouped name is the section header title
+ *
+ *  @param completeBlock sort complete block
+ */
+-(void) beginSortOrder:(DataSourceOrderBlock) orderBlock;
 
 //filter function
 /**
