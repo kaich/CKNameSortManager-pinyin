@@ -1,6 +1,0 @@
-framework module CKNameSortManager {
-  umbrella header "Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

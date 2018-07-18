@@ -1,14 +1,16 @@
 PODS:
-  - CKNameSortManager (0.1.0)
+  - CKNameSortManager (0.1.2)
 
 DEPENDENCIES:
   - CKNameSortManager (from `../`)
 
 EXTERNAL SOURCES:
   CKNameSortManager:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CKNameSortManager: 1547e1b506f9845de46f379b4a4e0d301c6f8ef0
+  CKNameSortManager: 515789dcbe6796a23366143ec200226fe2b49c2c
 
-COCOAPODS: 0.37.1
+PODFILE CHECKSUM: eb57b876c79f74d28d4b10c3e45f5671b9f88576
+
+COCOAPODS: 1.5.3

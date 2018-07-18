@@ -7,523 +7,528 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05201FCD2C206B045DACB3BC /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = F92C29BECD2920CB7C522DC1 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D6CE2092E72317A8BCF8F73 /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = F92C29BECD2920CB7C522DC1 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11CCA390006482798EA162C8 /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */; };
-		1CBEB502839AA600B5A56EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
-		32F8C4F207939AFF1C1A5C2C /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 27363AEC616E66760036C298 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3740F162B7A40C579C9F4D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
-		387A382AE2CF5A9FD86DFBF1 /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */; };
-		39FEB286B8B9C1231E273CF0 /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */; };
-		3FFC569E4047EB7EFEC8A62A /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3CB294BB624809535D7FFB /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		465732D69B52B706E4D54D21 /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3CB294BB624809535D7FFB /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		636F11FF6651044039324436 /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */; };
-		66C2DEFAB3CA7F9556A071AB /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */; };
-		6A9DC14A77B9E16481D27BF4 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */; };
-		7406E1BC18C63A1FFA1459E7 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */; };
-		7592F2CF0053C1046A293ECE /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 27363AEC616E66760036C298 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		792149F1135FDF85A50D0BAA /* Pods-CKNameSortManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */; };
-		8505C6670E6D9A046C288DDE /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */; };
-		87324AA9EE67E7E078BBE569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
-		87466ACA5B61596EE2081508 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E61F9620D4F97C353FEC908 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */; };
-		92771130C780EFA673B635BE /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */; };
-		A1F262D3D9DB3A6B630A7CDB /* Pods-CKNameSortManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF8F67E660BAB0B09632BCE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E1281E16FE9890C34313A0 /* Foundation.framework */; };
-		BA87F21FC0DC1AF7D0D8BB3D /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */; };
-		C35CFBF8FB07D4585A612E6C /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB7F2630A625CB08DC93C592 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13367C87377DAE384C6B6300F5F6390C /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = A87A87A94BF830D0C9E7B5332940DF51 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4BDFEE623CD598BB0FCCAD3FBB298F /* NSString+Pinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 95948A5482038D4566BE379841950FFA /* NSString+Pinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328644E6DDFACDBE8B022DC27C9B1AEC /* CKNameSortManager-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F63551044D434DEAC3072D6DC6D31A /* CKNameSortManager-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38C9AD866E44475BC91C2666EF10FBA6 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05CE668151AA1243DFE002A350B3D1 /* NSString+Pinyin.m */; };
+		3C3D6B17E4ADF0A339847BB1F5FEE098 /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EC2C9E664D8BFE248EB58815943B35 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB41619530E129A7A479D93A4DFEB67 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E5B7D7810094D14FF879273407D67 /* Pods-CKNameSortManager_Tests-dummy.m */; };
+		672D4E60BB11084C8F76CE0D02A233D8 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05CE668151AA1243DFE002A350B3D1 /* NSString+Pinyin.m */; };
+		6B9BA589D3DBE7026BC8F1DD1E50C461 /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18CA42712449B5C1EC9D2F92437D56 /* CKPinyin.m */; };
+		746CF8EE984A34551DA50858A75F1DDF /* NSString+Pinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 95948A5482038D4566BE379841950FFA /* NSString+Pinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BABCF8098D0E4709369EFFE12A7516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7BEC497B854940D5A742D0547E407B4A /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B72221EC4EE70A8E08196203C7CF61D8 /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E08AADE29FA89C7BB3647B72064F7BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E7366E981748C65928E30D5022C542F /* CKPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = A87A87A94BF830D0C9E7B5332940DF51 /* CKPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1B36846390D3237BC1594D3F4ADBE0 /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CB41CF8021F5E5251A034591C89FF /* CKNameIndex.m */; };
+		8DE600EB212A6BB21A6124DEBACE045E /* Pods-CKNameSortManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D9970BF4DB840A6AF3D618E79802A7 /* Pods-CKNameSortManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9541FDBD45C019DD9DBAABBEAE5166CA /* CKNameSortManager-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E22B47A6B49DB6EEFC29748FBC1C85 /* CKNameSortManager-iOS7.1-dummy.m */; };
+		A235729C7C02602168D30A960BBF549B /* CKPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18CA42712449B5C1EC9D2F92437D56 /* CKPinyin.m */; };
+		A37A25F212EA28810A1895F7DC091C94 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F253893AE450E4A251D363CAF8B7AF7B /* Pods-CKNameSortManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59AEFD850383EE4778B3A655A1C63F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE33AC07849309A44F8CFF51F77544DE /* CKNameSortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B72221EC4EE70A8E08196203C7CF61D8 /* CKNameSortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED374E8A9F96DCD7AD03B9E8B06F3A8 /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A510A5BB354327AABEA860051E73604 /* CKNameSortManager.bundle */; };
+		C15B7771A003BB7943F6546094DE78D1 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB89503445FEA62B790E408455738C9 /* CKNameSortManager.m */; };
+		C1C08331681E200868C39312C590F652 /* CKNameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CB41CF8021F5E5251A034591C89FF /* CKNameIndex.m */; };
+		D40D68B8919DE489C4721E30D2EBB631 /* CKNameSortManager-iOS7.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED3EE89D3C6B8FBE0294A975B6F00F5 /* CKNameSortManager-iOS7.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D80611108040AD352B7C405D6858AF47 /* Pods-CKNameSortManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AE5B80B584F9E586A7726CA3DAA0B8 /* Pods-CKNameSortManager_Example-dummy.m */; };
+		D9CE4167CB43B89B103FAE37CE7CF9C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DA828E0F1A92E7F0C39C39C6BBB1D8D7 /* CKNameSortManager-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9E0C0CEA2619BE0B4AD16138A9A9BA /* CKNameSortManager-iOS9.0-dummy.m */; };
+		DD6BB12A557D6117EF9BB479E626157F /* CKNameIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EC2C9E664D8BFE248EB58815943B35 /* CKNameIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84BE1413C25C4D8A47F6AD5AE725249 /* CKNameSortManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45F769A0036882EFB9351AD3079F4825 /* CKNameSortManager.bundle */; };
+		EAB98BFF0513B3CB77A0B24023ACAD48 /* CKNameSortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB89503445FEA62B790E408455738C9 /* CKNameSortManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		374AC31ECCD50D008E751B91 /* PBXContainerItemProxy */ = {
+		A077F8C6AC1E9D173936F7BCE8B08FDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C684F82D790CC5426853A78D;
-			remoteInfo = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
+			remoteGlobalIDString = 5EDB049CABCC4527F0218B9C9CCC25CD;
+			remoteInfo = "CKNameSortManager-iOS7.1-CKNameSortManager";
 		};
-		3A5AE8136B04E448589AD910 /* PBXContainerItemProxy */ = {
+		A09D635A20C2262569555E1BD94E9788 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35274A8D441085EE6381A1A1;
-			remoteInfo = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
+			remoteGlobalIDString = 317EE6BBCD8640F3B0435B1CA59AFB53;
+			remoteInfo = "CKNameSortManager-iOS7.1";
 		};
-		BDC9C2EEBCB409A7724F39CF /* PBXContainerItemProxy */ = {
+		D7A29960A476C5A3F5DC8453A0025389 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E68AE78C163114B476ABB2C6;
-			remoteInfo = "Pods-CKNameSortManager_Example-CKNameSortManager";
+			remoteGlobalIDString = 889C87243B34C0EE3C35C9B366A80D9A;
+			remoteInfo = "CKNameSortManager-iOS9.0-CKNameSortManager";
 		};
-		F1B18957C98AEB8AECBB6593 /* PBXContainerItemProxy */ = {
+		F4DBC3D1F4963E8BE237CDF2F4589144 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D7871F95F85D458381F2E72;
-			remoteInfo = "Pods-CKNameSortManager_Tests-CKNameSortManager";
+			remoteGlobalIDString = 5DD32AEDF8B59F0B2B0056846C4F97B2;
+			remoteInfo = "CKNameSortManager-iOS9.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E33924260CA74608CFB49B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKNameSortManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27363AEC616E66760036C298 /* CKNameIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKNameIndex.h; sourceTree = "<group>"; };
-		28CA3AECDC5039912C848E3B /* Pods-CKNameSortManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Example.modulemap"; sourceTree = "<group>"; };
-		2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig"; sourceTree = "<group>"; };
-		2F56987871AEAE6CB59C3CA7 /* Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch"; sourceTree = "<group>"; };
-		3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h"; sourceTree = "<group>"; };
-		484D3A722C769A5309F0CB5C /* Pods-CKNameSortManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-resources.sh"; sourceTree = "<group>"; };
-		4AC6242C6CA6AEE2CD78AC9F /* Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig"; sourceTree = "<group>"; };
-		5D329ADBCF83F7B116A3E3AB /* Pods-CKNameSortManager_Example-CKNameSortManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Example-CKNameSortManager.modulemap"; sourceTree = "<group>"; };
-		600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m"; sourceTree = "<group>"; };
-		65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig"; sourceTree = "<group>"; };
-		6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKNameSortManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKNameSortManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m"; sourceTree = "<group>"; };
-		6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		710DFEED8E51F68B59E904BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7791851EEBF1C904CDC676D0 /* Pods-CKNameSortManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A3CB294BB624809535D7FFB /* CKNameSortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKNameSortManager.h; sourceTree = "<group>"; };
-		7EEED637C113B1FCAFD0361C /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		84F988A9C8C2ACC6A6AE8773 /* Pods-CKNameSortManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		86CFDC078CBE69197B186C2E /* Pods-CKNameSortManager_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Tests-environment.h"; sourceTree = "<group>"; };
-		88C8D360FF34C3D62460F31B /* Pods-CKNameSortManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h"; sourceTree = "<group>"; };
-		95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKNameSortManager.m; sourceTree = "<group>"; };
-		97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97DDEB8C0A3FCFEB935E8652 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98F036EAD88C93BA86BEDB63 /* Pods-CKNameSortManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKNameIndex.m; sourceTree = "<group>"; };
-		BCCE93C2B64975C895FDC7C8 /* Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap"; sourceTree = "<group>"; };
-		C3585CF03CE707A9EF6B36A4 /* Pods-CKNameSortManager_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-environment.h"; sourceTree = "<group>"; };
-		C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CD19D791E36429F4894A7DFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist"; sourceTree = "<group>"; };
-		D6CD4D67348D34EDDCA68F68 /* Pods-CKNameSortManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D9E1281E16FE9890C34313A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKNameSortManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E704DC29F7719D0E1DFF1CA0 /* Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch"; sourceTree = "<group>"; };
-		E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Example-dummy.m"; sourceTree = "<group>"; };
-		E93D9C3DC025F402567D6F81 /* Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig"; path = "../Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig"; sourceTree = "<group>"; };
-		E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EDC6F3CDCC06B89202E5F81C /* Pods-CKNameSortManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F32F7BB2B5153ABE485BBBCE /* Pods-CKNameSortManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKNameSortManager_Tests.modulemap"; sourceTree = "<group>"; };
-		F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKPinyin.m; sourceTree = "<group>"; };
-		F66EE7BE11A6943BB2C366AC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F92C29BECD2920CB7C522DC1 /* CKPinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKPinyin.h; sourceTree = "<group>"; };
+		03FB4448F014DC7B60886D3983F3FD80 /* Pods-CKNameSortManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		06D5A42BF91833FB24560501083C4671 /* Pods-CKNameSortManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0A2357D1DECB1BFBC531508368075B11 /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CKNameSortManager.framework; path = "CKNameSortManager-iOS7.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F0FC5904E8040047208AECC639B71E /* CKNameSortManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CKNameSortManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13EB5FF6501691330A35C96EE42D9727 /* CKNameSortManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CKNameSortManager.framework; path = "CKNameSortManager-iOS9.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CE45E99AA2EE96C3F40981D0548555 /* CKNameSortManager-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "CKNameSortManager-iOS9.0.modulemap"; path = "../CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		2F481F18C44A1B9ABE87C93F63233F8A /* Pods-CKNameSortManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		389E5B7D7810094D14FF879273407D67 /* Pods-CKNameSortManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		3998E9D02C0C60EE413B6C96B7EF7D35 /* CKNameSortManager-iOS7.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CKNameSortManager-iOS7.1.modulemap"; sourceTree = "<group>"; };
+		3C317CA2CB4F9346A3FE4AE45E8E6BFC /* Pods-CKNameSortManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CKNameSortManager-iOS9.0.xcconfig"; path = "../CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0.xcconfig"; sourceTree = "<group>"; };
+		3ED3EE89D3C6B8FBE0294A975B6F00F5 /* CKNameSortManager-iOS7.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKNameSortManager-iOS7.1-umbrella.h"; sourceTree = "<group>"; };
+		40EC2C9E664D8BFE248EB58815943B35 /* CKNameIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKNameIndex.h; path = Pod/Classes/CKNameIndex.h; sourceTree = "<group>"; };
+		45A18AD88D460856D84786559726F416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F769A0036882EFB9351AD3079F4825 /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CKNameSortManager.bundle; path = "CKNameSortManager-iOS9.0-CKNameSortManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46307606CD215542CDD0D5C8E13DF99E /* Pods_CKNameSortManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKNameSortManager_Tests.framework; path = "Pods-CKNameSortManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FEAEA235358D305CFEEBF42903E6BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D36DE5BD53FA146055B02585BC0B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CKNameSortManager-iOS9.0/Info.plist"; sourceTree = "<group>"; };
+		58F2B3A37C424B3DF54A3AF20C070F6B /* Pods-CKNameSortManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CKNameSortManager_Example.modulemap"; sourceTree = "<group>"; };
+		5D152D7065B539AA88075E62ABAC0248 /* Pods-CKNameSortManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		694F48D4F21D1725AF6FC61BE7364924 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A510A5BB354327AABEA860051E73604 /* CKNameSortManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CKNameSortManager.bundle; path = "CKNameSortManager-iOS7.1-CKNameSortManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7055B538685FE8794CD56B4E14CE5020 /* Pods-CKNameSortManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		70D1788CB462C1BDB9282DC2EAA1B2A1 /* Pods-CKNameSortManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		79F8C13CAD10C22FD59B78A0F408B17E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8ADE97AC5B0E58419C98C1CF803823B2 /* Pods-CKNameSortManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8F8C6DCE78484929E630D0C1C5A89838 /* Pods-CKNameSortManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CKNameSortManager_Tests.modulemap"; sourceTree = "<group>"; };
+		9342FEC4015318581824D0549C008570 /* Pods-CKNameSortManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKNameSortManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E17B9DB2F25BC8F1E55EA817685FBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		95948A5482038D4566BE379841950FFA /* NSString+Pinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Pinyin.h"; path = "Pod/Classes/NSString+Pinyin.h"; sourceTree = "<group>"; };
+		95DA1EE1F903B76D96818F66E9F0B077 /* Pods_CKNameSortManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKNameSortManager_Example.framework; path = "Pods-CKNameSortManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CKNameSortManager-iOS7.1.xcconfig"; sourceTree = "<group>"; };
+		A4725A4D4821B5782DDAA22062DB5388 /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKNameSortManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6AE5B80B584F9E586A7726CA3DAA0B8 /* Pods-CKNameSortManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKNameSortManager_Example-dummy.m"; sourceTree = "<group>"; };
+		A7F63551044D434DEAC3072D6DC6D31A /* CKNameSortManager-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CKNameSortManager-iOS9.0-umbrella.h"; path = "../CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
+		A87A87A94BF830D0C9E7B5332940DF51 /* CKPinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKPinyin.h; path = Pod/Classes/CKPinyin.h; sourceTree = "<group>"; };
+		ACCE8ED3E154C80EB5F6D91A86324158 /* Pods-CKNameSortManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKNameSortManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB89503445FEA62B790E408455738C9 /* CKNameSortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKNameSortManager.m; path = Pod/Classes/CKNameSortManager.m; sourceTree = "<group>"; };
+		B403DBEEAA37B52606B8EED3469F81B5 /* CKNameSortManager-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CKNameSortManager-iOS9.0-prefix.pch"; path = "../CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
+		B72221EC4EE70A8E08196203C7CF61D8 /* CKNameSortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKNameSortManager.h; path = Pod/Classes/CKNameSortManager.h; sourceTree = "<group>"; };
+		B7876C9DFB681B91C8FA08662486065C /* ResourceBundle-CKNameSortManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-CKNameSortManager-Info.plist"; path = "../CKNameSortManager-iOS9.0/ResourceBundle-CKNameSortManager-Info.plist"; sourceTree = "<group>"; };
+		BA05CE668151AA1243DFE002A350B3D1 /* NSString+Pinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Pinyin.m"; path = "Pod/Classes/NSString+Pinyin.m"; sourceTree = "<group>"; };
+		BE18CA42712449B5C1EC9D2F92437D56 /* CKPinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKPinyin.m; path = Pod/Classes/CKPinyin.m; sourceTree = "<group>"; };
+		C2D9970BF4DB840A6AF3D618E79802A7 /* Pods-CKNameSortManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD5CB41CF8021F5E5251A034591C89FF /* CKNameIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKNameIndex.m; path = Pod/Classes/CKNameIndex.m; sourceTree = "<group>"; };
+		E72DE9970BA62C1B33106B487B07F8D3 /* CKNameSortManager-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKNameSortManager-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
+		E7E22B47A6B49DB6EEFC29748FBC1C85 /* CKNameSortManager-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKNameSortManager-iOS7.1-dummy.m"; sourceTree = "<group>"; };
+		EFACC6D1C331E824C61BAF43333721F0 /* Pods-CKNameSortManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKNameSortManager_Example-resources.sh"; sourceTree = "<group>"; };
+		F253893AE450E4A251D363CAF8B7AF7B /* Pods-CKNameSortManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKNameSortManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FB2C75A90F16CDBB11B678693E8B0C88 /* ResourceBundle-CKNameSortManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CKNameSortManager-Info.plist"; sourceTree = "<group>"; };
+		FE9E0C0CEA2619BE0B4AD16138A9A9BA /* CKNameSortManager-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CKNameSortManager-iOS9.0-dummy.m"; path = "../CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13749CC3042C7CFFFBF2F1D5 /* Frameworks */ = {
+		0A6AC7B9FA5F9F8BB51C61D1773B3102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8F67E660BAB0B09632BCE0 /* Foundation.framework in Frameworks */,
+				D9CE4167CB43B89B103FAE37CE7CF9C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46C0215BCC61068C80AF28E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57ADB30CF958F003EA194FB5 /* Frameworks */ = {
+		230F093E255D78050D5128FD1A4503B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		827B4FF913D7C3D4CD16D43B /* Frameworks */ = {
+		4F7D5536337C57FF5BBABDA60488465D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBEB502839AA600B5A56EEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E832C4F25523A2D4AD80CD8 /* Frameworks */ = {
+		5B6916548C601F8E3A4E388A4B794C75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87324AA9EE67E7E078BBE569 /* Foundation.framework in Frameworks */,
+				78BABCF8098D0E4709369EFFE12A7516 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD5BC9E32D240892557B4627 /* Frameworks */ = {
+		8E3BDF81198E7B30860ED645D1040E5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3740F162B7A40C579C9F4D94 /* Foundation.framework in Frameworks */,
+				7E08AADE29FA89C7BB3647B72064F7BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F014D3F69ECDA882D5828426B254AB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59AEFD850383EE4778B3A655A1C63F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FEBAD1569E58D19B0B303DA /* Development Pods */ = {
+		257B612F0A0CD397F75C397792385BC1 /* CKNameSortManager */ = {
 			isa = PBXGroup;
 			children = (
-				F26E01CE4B5D6CCF2B1C1F71 /* CKNameSortManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		13E222E3A20968CDFCED02E0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D460C4BEDB4EDE4367F6E4A5 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		2424BC41920486F8CE86BE7A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */,
-				E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */,
-				0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */,
-				6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */,
-				97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */,
-				E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		341379979472D1C5BF6C07B6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				97DDEB8C0A3FCFEB935E8652 /* Info.plist */,
-				CD19D791E36429F4894A7DFE /* Info.plist */,
-				5D329ADBCF83F7B116A3E3AB /* Pods-CKNameSortManager_Example-CKNameSortManager.modulemap */,
-				4AC6242C6CA6AEE2CD78AC9F /* Pods-CKNameSortManager_Example-CKNameSortManager.xcconfig */,
-				65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */,
-				600709BEBEAD0C8F076013EA /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m */,
-				E704DC29F7719D0E1DFF1CA0 /* Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch */,
-				9274D2F5F3914F321842AF16 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h */,
-				BCCE93C2B64975C895FDC7C8 /* Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap */,
-				E93D9C3DC025F402567D6F81 /* Pods-CKNameSortManager_Tests-CKNameSortManager.xcconfig */,
-				2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */,
-				6E873E63AD6E7EB7C1A4674E /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m */,
-				2F56987871AEAE6CB59C3CA7 /* Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch */,
-				3786853614F680F18217ECFC /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager";
-			sourceTree = "<group>";
-		};
-		696DD1E092E9397DB3F972FD = {
-			isa = PBXGroup;
-			children = (
-				F66EE7BE11A6943BB2C366AC /* Podfile */,
-				0FEBAD1569E58D19B0B303DA /* Development Pods */,
-				C79FB83268F0101C32EB0947 /* Frameworks */,
-				2424BC41920486F8CE86BE7A /* Products */,
-				A71C3E83ABEAAEB01F275530 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		6AE85211BBEFB759B005A071 /* Pods-CKNameSortManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				710DFEED8E51F68B59E904BE /* Info.plist */,
-				F32F7BB2B5153ABE485BBBCE /* Pods-CKNameSortManager_Tests.modulemap */,
-				7EEED637C113B1FCAFD0361C /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */,
-				7791851EEBF1C904CDC676D0 /* Pods-CKNameSortManager_Tests-acknowledgements.plist */,
-				860DE8CFF863C2A96AE7101D /* Pods-CKNameSortManager_Tests-dummy.m */,
-				86CFDC078CBE69197B186C2E /* Pods-CKNameSortManager_Tests-environment.h */,
-				D6CD4D67348D34EDDCA68F68 /* Pods-CKNameSortManager_Tests-frameworks.sh */,
-				88C8D360FF34C3D62460F31B /* Pods-CKNameSortManager_Tests-resources.sh */,
-				C84383F824906E3E02753517 /* Pods-CKNameSortManager_Tests-umbrella.h */,
-				6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */,
-				8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */,
-			);
-			name = "Pods-CKNameSortManager_Tests";
-			path = "Target Support Files/Pods-CKNameSortManager_Tests";
-			sourceTree = "<group>";
-		};
-		A173CC0EAD78EB986F91D71E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D9E1281E16FE9890C34313A0 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A71C3E83ABEAAEB01F275530 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC9230A968CE8FCF57B55A37 /* Pods-CKNameSortManager_Example */,
-				6AE85211BBEFB759B005A071 /* Pods-CKNameSortManager_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C79FB83268F0101C32EB0947 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A173CC0EAD78EB986F91D71E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC9230A968CE8FCF57B55A37 /* Pods-CKNameSortManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				00E33924260CA74608CFB49B /* Info.plist */,
-				28CA3AECDC5039912C848E3B /* Pods-CKNameSortManager_Example.modulemap */,
-				EDC6F3CDCC06B89202E5F81C /* Pods-CKNameSortManager_Example-acknowledgements.markdown */,
-				84F988A9C8C2ACC6A6AE8773 /* Pods-CKNameSortManager_Example-acknowledgements.plist */,
-				E85C0D7147C77E048399D64E /* Pods-CKNameSortManager_Example-dummy.m */,
-				C3585CF03CE707A9EF6B36A4 /* Pods-CKNameSortManager_Example-environment.h */,
-				98F036EAD88C93BA86BEDB63 /* Pods-CKNameSortManager_Example-frameworks.sh */,
-				484D3A722C769A5309F0CB5C /* Pods-CKNameSortManager_Example-resources.sh */,
-				0B00C0F23B34B5D898F9724C /* Pods-CKNameSortManager_Example-umbrella.h */,
-				E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */,
-				AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */,
-			);
-			name = "Pods-CKNameSortManager_Example";
-			path = "Target Support Files/Pods-CKNameSortManager_Example";
-			sourceTree = "<group>";
-		};
-		D460C4BEDB4EDE4367F6E4A5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				27363AEC616E66760036C298 /* CKNameIndex.h */,
-				B360B9BB1E3331B4D88D0595 /* CKNameIndex.m */,
-				7A3CB294BB624809535D7FFB /* CKNameSortManager.h */,
-				95FBB0408E43CB3EE968CB28 /* CKNameSortManager.m */,
-				F92C29BECD2920CB7C522DC1 /* CKPinyin.h */,
-				F54E4EF6224D730DA6BEB7F1 /* CKPinyin.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F26E01CE4B5D6CCF2B1C1F71 /* CKNameSortManager */ = {
-			isa = PBXGroup;
-			children = (
-				13E222E3A20968CDFCED02E0 /* Pod */,
-				341379979472D1C5BF6C07B6 /* Support Files */,
+				40EC2C9E664D8BFE248EB58815943B35 /* CKNameIndex.h */,
+				CD5CB41CF8021F5E5251A034591C89FF /* CKNameIndex.m */,
+				B72221EC4EE70A8E08196203C7CF61D8 /* CKNameSortManager.h */,
+				AEB89503445FEA62B790E408455738C9 /* CKNameSortManager.m */,
+				A87A87A94BF830D0C9E7B5332940DF51 /* CKPinyin.h */,
+				BE18CA42712449B5C1EC9D2F92437D56 /* CKPinyin.m */,
+				95948A5482038D4566BE379841950FFA /* NSString+Pinyin.h */,
+				BA05CE668151AA1243DFE002A350B3D1 /* NSString+Pinyin.m */,
+				75C201FCFA9E579B893218FD25AFB109 /* Pod */,
+				4038A6FA7E526FFC1E7772CF5622B69A /* Support Files */,
 			);
 			name = CKNameSortManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		4038A6FA7E526FFC1E7772CF5622B69A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3998E9D02C0C60EE413B6C96B7EF7D35 /* CKNameSortManager-iOS7.1.modulemap */,
+				A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */,
+				E7E22B47A6B49DB6EEFC29748FBC1C85 /* CKNameSortManager-iOS7.1-dummy.m */,
+				E72DE9970BA62C1B33106B487B07F8D3 /* CKNameSortManager-iOS7.1-prefix.pch */,
+				3ED3EE89D3C6B8FBE0294A975B6F00F5 /* CKNameSortManager-iOS7.1-umbrella.h */,
+				23CE45E99AA2EE96C3F40981D0548555 /* CKNameSortManager-iOS9.0.modulemap */,
+				3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */,
+				FE9E0C0CEA2619BE0B4AD16138A9A9BA /* CKNameSortManager-iOS9.0-dummy.m */,
+				B403DBEEAA37B52606B8EED3469F81B5 /* CKNameSortManager-iOS9.0-prefix.pch */,
+				A7F63551044D434DEAC3072D6DC6D31A /* CKNameSortManager-iOS9.0-umbrella.h */,
+				48FEAEA235358D305CFEEBF42903E6BA /* Info.plist */,
+				57D36DE5BD53FA146055B02585BC0B22 /* Info.plist */,
+				B7876C9DFB681B91C8FA08662486065C /* ResourceBundle-CKNameSortManager-Info.plist */,
+				FB2C75A90F16CDBB11B678693E8B0C88 /* ResourceBundle-CKNameSortManager-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CKNameSortManager-iOS7.1";
+			sourceTree = "<group>";
+		};
+		4F7D4794ACE2777D0CCAECCF021C5E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A510A5BB354327AABEA860051E73604 /* CKNameSortManager.bundle */,
+				45F769A0036882EFB9351AD3079F4825 /* CKNameSortManager.bundle */,
+				0A2357D1DECB1BFBC531508368075B11 /* CKNameSortManager.framework */,
+				13EB5FF6501691330A35C96EE42D9727 /* CKNameSortManager.framework */,
+				95DA1EE1F903B76D96818F66E9F0B077 /* Pods_CKNameSortManager_Example.framework */,
+				46307606CD215542CDD0D5C8E13DF99E /* Pods_CKNameSortManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C201FCFA9E579B893218FD25AFB109 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12F0FC5904E8040047208AECC639B71E /* CKNameSortManager.podspec */,
+				94E17B9DB2F25BC8F1E55EA817685FBD /* LICENSE */,
+				79F8C13CAD10C22FD59B78A0F408B17E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				82E407FCFE05E4D68C919E8E62EF76B9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F7D4794ACE2777D0CCAECCF021C5E77 /* Products */,
+				B7E70882ED9825E25778833D01D60F24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82E407FCFE05E4D68C919E8E62EF76B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				257B612F0A0CD397F75C397792385BC1 /* CKNameSortManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8D13BE256FFC07E72682D07836CE8B04 /* Pods-CKNameSortManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				45A18AD88D460856D84786559726F416 /* Info.plist */,
+				58F2B3A37C424B3DF54A3AF20C070F6B /* Pods-CKNameSortManager_Example.modulemap */,
+				5D152D7065B539AA88075E62ABAC0248 /* Pods-CKNameSortManager_Example-acknowledgements.markdown */,
+				9342FEC4015318581824D0549C008570 /* Pods-CKNameSortManager_Example-acknowledgements.plist */,
+				A6AE5B80B584F9E586A7726CA3DAA0B8 /* Pods-CKNameSortManager_Example-dummy.m */,
+				8ADE97AC5B0E58419C98C1CF803823B2 /* Pods-CKNameSortManager_Example-frameworks.sh */,
+				EFACC6D1C331E824C61BAF43333721F0 /* Pods-CKNameSortManager_Example-resources.sh */,
+				C2D9970BF4DB840A6AF3D618E79802A7 /* Pods-CKNameSortManager_Example-umbrella.h */,
+				3C317CA2CB4F9346A3FE4AE45E8E6BFC /* Pods-CKNameSortManager_Example.debug.xcconfig */,
+				7055B538685FE8794CD56B4E14CE5020 /* Pods-CKNameSortManager_Example.release.xcconfig */,
+			);
+			name = "Pods-CKNameSortManager_Example";
+			path = "Target Support Files/Pods-CKNameSortManager_Example";
+			sourceTree = "<group>";
+		};
+		9C710967C423547945BF3A5027CCF9C7 /* Pods-CKNameSortManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				694F48D4F21D1725AF6FC61BE7364924 /* Info.plist */,
+				8F8C6DCE78484929E630D0C1C5A89838 /* Pods-CKNameSortManager_Tests.modulemap */,
+				A4725A4D4821B5782DDAA22062DB5388 /* Pods-CKNameSortManager_Tests-acknowledgements.markdown */,
+				2F481F18C44A1B9ABE87C93F63233F8A /* Pods-CKNameSortManager_Tests-acknowledgements.plist */,
+				389E5B7D7810094D14FF879273407D67 /* Pods-CKNameSortManager_Tests-dummy.m */,
+				06D5A42BF91833FB24560501083C4671 /* Pods-CKNameSortManager_Tests-frameworks.sh */,
+				70D1788CB462C1BDB9282DC2EAA1B2A1 /* Pods-CKNameSortManager_Tests-resources.sh */,
+				F253893AE450E4A251D363CAF8B7AF7B /* Pods-CKNameSortManager_Tests-umbrella.h */,
+				03FB4448F014DC7B60886D3983F3FD80 /* Pods-CKNameSortManager_Tests.debug.xcconfig */,
+				ACCE8ED3E154C80EB5F6D91A86324158 /* Pods-CKNameSortManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-CKNameSortManager_Tests";
+			path = "Target Support Files/Pods-CKNameSortManager_Tests";
+			sourceTree = "<group>";
+		};
+		B7E70882ED9825E25778833D01D60F24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D13BE256FFC07E72682D07836CE8B04 /* Pods-CKNameSortManager_Example */,
+				9C710967C423547945BF3A5027CCF9C7 /* Pods-CKNameSortManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B5F93566B42C102977A5AED /* Headers */ = {
+		6F0D0E0C958A182DD8091FEE5423C950 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7592F2CF0053C1046A293ECE /* CKNameIndex.h in Headers */,
-				465732D69B52B706E4D54D21 /* CKNameSortManager.h in Headers */,
-				0D6CE2092E72317A8BCF8F73 /* CKPinyin.h in Headers */,
-				EB7F2630A625CB08DC93C592 /* Pods-CKNameSortManager_Example-CKNameSortManager-umbrella.h in Headers */,
+				A37A25F212EA28810A1895F7DC091C94 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528ABF7CBC4E440FCE78CE9A /* Headers */ = {
+		7BC2E62852085FD82CF3640392B92F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F8C4F207939AFF1C1A5C2C /* CKNameIndex.h in Headers */,
-				3FFC569E4047EB7EFEC8A62A /* CKNameSortManager.h in Headers */,
-				05201FCD2C206B045DACB3BC /* CKPinyin.h in Headers */,
-				C35CFBF8FB07D4585A612E6C /* Pods-CKNameSortManager_Tests-CKNameSortManager-umbrella.h in Headers */,
+				3C3D6B17E4ADF0A339847BB1F5FEE098 /* CKNameIndex.h in Headers */,
+				328644E6DDFACDBE8B022DC27C9B1AEC /* CKNameSortManager-iOS9.0-umbrella.h in Headers */,
+				7BEC497B854940D5A742D0547E407B4A /* CKNameSortManager.h in Headers */,
+				13367C87377DAE384C6B6300F5F6390C /* CKPinyin.h in Headers */,
+				2E4BDFEE623CD598BB0FCCAD3FBB298F /* NSString+Pinyin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5728D814CBA14E23E6F0F090 /* Headers */ = {
+		B10926075D83330143AE780EB8C35C6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87466ACA5B61596EE2081508 /* Pods-CKNameSortManager_Tests-umbrella.h in Headers */,
+				8DE600EB212A6BB21A6124DEBACE045E /* Pods-CKNameSortManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DE5CF9A564C30E892C06E9B /* Headers */ = {
+		FD76B0409AA08BE51A71C341AA88B6C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F262D3D9DB3A6B630A7CDB /* Pods-CKNameSortManager_Example-umbrella.h in Headers */,
+				DD6BB12A557D6117EF9BB479E626157F /* CKNameIndex.h in Headers */,
+				D40D68B8919DE489C4721E30D2EBB631 /* CKNameSortManager-iOS7.1-umbrella.h in Headers */,
+				BE33AC07849309A44F8CFF51F77544DE /* CKNameSortManager.h in Headers */,
+				7E7366E981748C65928E30D5022C542F /* CKPinyin.h in Headers */,
+				746CF8EE984A34551DA50858A75F1DDF /* NSString+Pinyin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */ = {
+		317EE6BBCD8640F3B0435B1CA59AFB53 /* CKNameSortManager-iOS7.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64347AC721CD096FBFD651E1 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager" */;
+			buildConfigurationList = 12CAA4AD71CFD4B0189D65A8B651EE48 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS7.1" */;
 			buildPhases = (
-				A84A072398A99CD85DDBD365 /* Sources */,
-				46C0215BCC61068C80AF28E7 /* Frameworks */,
-				3670199F5F2850A7C1DDCA26 /* Resources */,
+				5503F37F0F9001E07C62101CB66D48DC /* Sources */,
+				8E3BDF81198E7B30860ED645D1040E5B /* Frameworks */,
+				143E924B28225CAE5F3DAD42E9B7509C /* Resources */,
+				FD76B0409AA08BE51A71C341AA88B6C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9309D700A3C8FB265009378759CA075D /* PBXTargetDependency */,
+			);
+			name = "CKNameSortManager-iOS7.1";
+			productName = "CKNameSortManager-iOS7.1";
+			productReference = 0A2357D1DECB1BFBC531508368075B11 /* CKNameSortManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DD32AEDF8B59F0B2B0056846C4F97B2 /* CKNameSortManager-iOS9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249EBC108C7353F6EF2D804D38DC0C11 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS9.0" */;
+			buildPhases = (
+				19159CC2114F6E82EC6FE01ED47B33EC /* Sources */,
+				F014D3F69ECDA882D5828426B254AB55 /* Frameworks */,
+				BCD98A77A465496156B119A4FB9D5D7E /* Resources */,
+				7BC2E62852085FD82CF3640392B92F30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1677B1034D31ED681DD59ABAF5F5A97 /* PBXTargetDependency */,
+			);
+			name = "CKNameSortManager-iOS9.0";
+			productName = "CKNameSortManager-iOS9.0";
+			productReference = 13EB5FF6501691330A35C96EE42D9727 /* CKNameSortManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EDB049CABCC4527F0218B9C9CCC25CD /* CKNameSortManager-iOS7.1-CKNameSortManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42A7D985AB2A33B4B296CB6AFAF466 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS7.1-CKNameSortManager" */;
+			buildPhases = (
+				E46EE5E8AD8A49AEA051FA9D1FD7F729 /* Sources */,
+				4F7D5536337C57FF5BBABDA60488465D /* Frameworks */,
+				E072E8B9D6E5D764EE8F4BDB55A86B23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
-			productName = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
-			productReference = 6E44B264FDC2341D9B4B635B /* CKNameSortManager.bundle */;
+			name = "CKNameSortManager-iOS7.1-CKNameSortManager";
+			productName = "CKNameSortManager-iOS7.1-CKNameSortManager";
+			productReference = 6A510A5BB354327AABEA860051E73604 /* CKNameSortManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */ = {
+		74053F7433935C9B8A0BC0CDAB7BFE50 /* Pods-CKNameSortManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73AD2A1EE771F4A56F2413E5 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager" */;
+			buildConfigurationList = F3BD5E2976D8D03A4DE4226102B5A8D8 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */;
 			buildPhases = (
-				BD86DB512D2B18F64C69003A /* Sources */,
-				827B4FF913D7C3D4CD16D43B /* Frameworks */,
-				6F5B07020AD8414728396355 /* Resources */,
-				528ABF7CBC4E440FCE78CE9A /* Headers */,
+				8C87D00DD3B6A467D6A966F6773E27C4 /* Sources */,
+				0A6AC7B9FA5F9F8BB51C61D1773B3102 /* Frameworks */,
+				B10926075D83330143AE780EB8C35C6C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8193F39E59E2959FEE7BECDB /* PBXTargetDependency */,
-			);
-			name = "Pods-CKNameSortManager_Tests-CKNameSortManager";
-			productName = "Pods-CKNameSortManager_Tests-CKNameSortManager";
-			productReference = 6DCB14F144B2E1F0684BD8FD /* CKNameSortManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B869ACDBD26351AC90A826D7 /* Pods-CKNameSortManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB8B9BDB4CB4DB835F41697E /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */;
-			buildPhases = (
-				B6DE3C43E1C0EC139555B11A /* Sources */,
-				8E832C4F25523A2D4AD80CD8 /* Frameworks */,
-				5728D814CBA14E23E6F0F090 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CE118879824061959627F1E /* PBXTargetDependency */,
-			);
-			name = "Pods-CKNameSortManager_Tests";
-			productName = "Pods-CKNameSortManager_Tests";
-			productReference = E03DAC2850C3A057F93BFE80 /* Pods_CKNameSortManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C4D560AF358C37AF19CC92BF /* Pods-CKNameSortManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2248358334C9BD2F288E3FC3 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */;
-			buildPhases = (
-				A55B495B12AE6F765930BBB5 /* Sources */,
-				FD5BC9E32D240892557B4627 /* Frameworks */,
-				6DE5CF9A564C30E892C06E9B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB9DAF7DF22AD81EBF0EBADB /* PBXTargetDependency */,
+				D09C066521ED933CD14428C726174599 /* PBXTargetDependency */,
 			);
 			name = "Pods-CKNameSortManager_Example";
 			productName = "Pods-CKNameSortManager_Example";
-			productReference = 97D51E4EA4A3763C000030A4 /* Pods_CKNameSortManager_Example.framework */;
+			productReference = 95DA1EE1F903B76D96818F66E9F0B077 /* Pods_CKNameSortManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */ = {
+		889C87243B34C0EE3C35C9B366A80D9A /* CKNameSortManager-iOS9.0-CKNameSortManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAC545FA4E3489F1AEC9185B /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager" */;
+			buildConfigurationList = BBD0DD2D5F49F4CB7F925ACC703ECF8A /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS9.0-CKNameSortManager" */;
 			buildPhases = (
-				2E0E9F4CF4CE4176014DB01E /* Sources */,
-				57ADB30CF958F003EA194FB5 /* Frameworks */,
-				B051650C58C3FBC98EF7F8D4 /* Resources */,
+				3BA56BE9CB06908A2662E8D0F502EFA6 /* Sources */,
+				230F093E255D78050D5128FD1A4503B4 /* Frameworks */,
+				DE2A53A71F0E05BA794272C0BC77DDAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
-			productName = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
-			productReference = E5F680C548B05871C1DFABE3 /* CKNameSortManager.bundle */;
+			name = "CKNameSortManager-iOS9.0-CKNameSortManager";
+			productName = "CKNameSortManager-iOS9.0-CKNameSortManager";
+			productReference = 45F769A0036882EFB9351AD3079F4825 /* CKNameSortManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */ = {
+		DE18EF23A033602FCCB910F7DE49D9C0 /* Pods-CKNameSortManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C76653A974D4A90819FCCB /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager" */;
+			buildConfigurationList = CC4B8EE44F2A7D3F7C6D64AD1CB25E7F /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */;
 			buildPhases = (
-				B9908BB08A1CCC3BF707DAB2 /* Sources */,
-				13749CC3042C7CFFFBF2F1D5 /* Frameworks */,
-				7D553BF922A57CCB61435DBE /* Resources */,
-				3B5F93566B42C102977A5AED /* Headers */,
+				D4A8AAC0799CC8EFF7806A2BC8883DA3 /* Sources */,
+				5B6916548C601F8E3A4E388A4B794C75 /* Frameworks */,
+				6F0D0E0C958A182DD8091FEE5423C950 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B79B8C42DA5C9030A7B7532F /* PBXTargetDependency */,
+				B491A29B61A465F344C87DBF98D8FA45 /* PBXTargetDependency */,
 			);
-			name = "Pods-CKNameSortManager_Example-CKNameSortManager";
-			productName = "Pods-CKNameSortManager_Example-CKNameSortManager";
-			productReference = 0D59EC1A83A5C2BC9975C1AB /* CKNameSortManager.framework */;
+			name = "Pods-CKNameSortManager_Tests";
+			productName = "Pods-CKNameSortManager_Tests";
+			productReference = 46307606CD215542CDD0D5C8E13DF99E /* Pods_CKNameSortManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7E9C99608A656EC49BB1BBF1 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 25456994AC75BC849B00D96F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 696DD1E092E9397DB3F972FD;
-			productRefGroup = 2424BC41920486F8CE86BE7A /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F7D4794ACE2777D0CCAECCF021C5E77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4D560AF358C37AF19CC92BF /* Pods-CKNameSortManager_Example */,
-				E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */,
-				C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */,
-				B869ACDBD26351AC90A826D7 /* Pods-CKNameSortManager_Tests */,
-				3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */,
-				35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */,
+				317EE6BBCD8640F3B0435B1CA59AFB53 /* CKNameSortManager-iOS7.1 */,
+				5EDB049CABCC4527F0218B9C9CCC25CD /* CKNameSortManager-iOS7.1-CKNameSortManager */,
+				5DD32AEDF8B59F0B2B0056846C4F97B2 /* CKNameSortManager-iOS9.0 */,
+				889C87243B34C0EE3C35C9B366A80D9A /* CKNameSortManager-iOS9.0-CKNameSortManager */,
+				74053F7433935C9B8A0BC0CDAB7BFE50 /* Pods-CKNameSortManager_Example */,
+				DE18EF23A033602FCCB910F7DE49D9C0 /* Pods-CKNameSortManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3670199F5F2850A7C1DDCA26 /* Resources */ = {
+		143E924B28225CAE5F3DAD42E9B7509C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED374E8A9F96DCD7AD03B9E8B06F3A8 /* CKNameSortManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD98A77A465496156B119A4FB9D5D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84BE1413C25C4D8A47F6AD5AE725249 /* CKNameSortManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2A53A71F0E05BA794272C0BC77DDAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F5B07020AD8414728396355 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39FEB286B8B9C1231E273CF0 /* CKNameSortManager.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D553BF922A57CCB61435DBE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66C2DEFAB3CA7F9556A071AB /* CKNameSortManager.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B051650C58C3FBC98EF7F8D4 /* Resources */ = {
+		E072E8B9D6E5D764EE8F4BDB55A86B23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,504 +538,598 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E0E9F4CF4CE4176014DB01E /* Sources */ = {
+		19159CC2114F6E82EC6FE01ED47B33EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C08331681E200868C39312C590F652 /* CKNameIndex.m in Sources */,
+				DA828E0F1A92E7F0C39C39C6BBB1D8D7 /* CKNameSortManager-iOS9.0-dummy.m in Sources */,
+				C15B7771A003BB7943F6546094DE78D1 /* CKNameSortManager.m in Sources */,
+				A235729C7C02602168D30A960BBF549B /* CKPinyin.m in Sources */,
+				38C9AD866E44475BC91C2666EF10FBA6 /* NSString+Pinyin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA56BE9CB06908A2662E8D0F502EFA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A55B495B12AE6F765930BBB5 /* Sources */ = {
+		5503F37F0F9001E07C62101CB66D48DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792149F1135FDF85A50D0BAA /* Pods-CKNameSortManager_Example-dummy.m in Sources */,
+				8A1B36846390D3237BC1594D3F4ADBE0 /* CKNameIndex.m in Sources */,
+				9541FDBD45C019DD9DBAABBEAE5166CA /* CKNameSortManager-iOS7.1-dummy.m in Sources */,
+				EAB98BFF0513B3CB77A0B24023ACAD48 /* CKNameSortManager.m in Sources */,
+				6B9BA589D3DBE7026BC8F1DD1E50C461 /* CKPinyin.m in Sources */,
+				672D4E60BB11084C8F76CE0D02A233D8 /* NSString+Pinyin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A84A072398A99CD85DDBD365 /* Sources */ = {
+		8C87D00DD3B6A467D6A966F6773E27C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80611108040AD352B7C405D6858AF47 /* Pods-CKNameSortManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6DE3C43E1C0EC139555B11A /* Sources */ = {
+		D4A8AAC0799CC8EFF7806A2BC8883DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E61F9620D4F97C353FEC908 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */,
+				5EB41619530E129A7A479D93A4DFEB67 /* Pods-CKNameSortManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9908BB08A1CCC3BF707DAB2 /* Sources */ = {
+		E46EE5E8AD8A49AEA051FA9D1FD7F729 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8505C6670E6D9A046C288DDE /* CKNameIndex.m in Sources */,
-				6A9DC14A77B9E16481D27BF4 /* CKNameSortManager.m in Sources */,
-				636F11FF6651044039324436 /* CKPinyin.m in Sources */,
-				11CCA390006482798EA162C8 /* Pods-CKNameSortManager_Example-CKNameSortManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD86DB512D2B18F64C69003A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				387A382AE2CF5A9FD86DFBF1 /* CKNameIndex.m in Sources */,
-				7406E1BC18C63A1FFA1459E7 /* CKNameSortManager.m in Sources */,
-				BA87F21FC0DC1AF7D0D8BB3D /* CKPinyin.m in Sources */,
-				92771130C780EFA673B635BE /* Pods-CKNameSortManager_Tests-CKNameSortManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4CE118879824061959627F1E /* PBXTargetDependency */ = {
+		9309D700A3C8FB265009378759CA075D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CKNameSortManager_Tests-CKNameSortManager";
-			target = 3D7871F95F85D458381F2E72 /* Pods-CKNameSortManager_Tests-CKNameSortManager */;
-			targetProxy = F1B18957C98AEB8AECBB6593 /* PBXContainerItemProxy */;
+			name = "CKNameSortManager-iOS7.1-CKNameSortManager";
+			target = 5EDB049CABCC4527F0218B9C9CCC25CD /* CKNameSortManager-iOS7.1-CKNameSortManager */;
+			targetProxy = A077F8C6AC1E9D173936F7BCE8B08FDE /* PBXContainerItemProxy */;
 		};
-		8193F39E59E2959FEE7BECDB /* PBXTargetDependency */ = {
+		A1677B1034D31ED681DD59ABAF5F5A97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager";
-			target = 35274A8D441085EE6381A1A1 /* Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager */;
-			targetProxy = 3A5AE8136B04E448589AD910 /* PBXContainerItemProxy */;
+			name = "CKNameSortManager-iOS9.0-CKNameSortManager";
+			target = 889C87243B34C0EE3C35C9B366A80D9A /* CKNameSortManager-iOS9.0-CKNameSortManager */;
+			targetProxy = D7A29960A476C5A3F5DC8453A0025389 /* PBXContainerItemProxy */;
 		};
-		B79B8C42DA5C9030A7B7532F /* PBXTargetDependency */ = {
+		B491A29B61A465F344C87DBF98D8FA45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager";
-			target = C684F82D790CC5426853A78D /* Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager */;
-			targetProxy = 374AC31ECCD50D008E751B91 /* PBXContainerItemProxy */;
+			name = "CKNameSortManager-iOS7.1";
+			target = 317EE6BBCD8640F3B0435B1CA59AFB53 /* CKNameSortManager-iOS7.1 */;
+			targetProxy = A09D635A20C2262569555E1BD94E9788 /* PBXContainerItemProxy */;
 		};
-		BB9DAF7DF22AD81EBF0EBADB /* PBXTargetDependency */ = {
+		D09C066521ED933CD14428C726174599 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CKNameSortManager_Example-CKNameSortManager";
-			target = E68AE78C163114B476ABB2C6 /* Pods-CKNameSortManager_Example-CKNameSortManager */;
-			targetProxy = BDC9C2EEBCB409A7724F39CF /* PBXContainerItemProxy */;
+			name = "CKNameSortManager-iOS9.0";
+			target = 5DD32AEDF8B59F0B2B0056846C4F97B2 /* CKNameSortManager-iOS9.0 */;
+			targetProxy = F4DBC3D1F4963E8BE237CDF2F4589144 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0725B52DEE4FCA9ED1B1B112 /* Release */ = {
+		078DA044E9CE57ECB201ACF4367466F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Tests";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1C425FA9E3815D898F3E22F91B7080DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CKNameSortManager-iOS7.1/CKNameSortManager-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKNameSortManager-iOS7.1/CKNameSortManager-iOS7.1.modulemap";
+				PRODUCT_MODULE_NAME = CKNameSortManager;
 				PRODUCT_NAME = CKNameSortManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31F1995131C88EDCEAD4A7E904CF04E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCE8ED3E154C80EB5F6D91A86324158 /* Pods-CKNameSortManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52A116CE0F81C1F1C0FB05B4E649F38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CKNameSortManager-iOS9.0";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS9.0/ResourceBundle-CKNameSortManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7A33A2A605B3F8B3D0CCF7C9D0B203A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C317CA2CB4F9346A3FE4AE45E8E6BFC /* Pods-CKNameSortManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A693C61E3104E65B7BC05771FCB0571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FB4448F014DC7B60886D3983F3FD80 /* Pods-CKNameSortManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8962EC729F6E14615B856E1B34D0F15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CKNameSortManager-iOS7.1/CKNameSortManager-iOS7.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS7.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKNameSortManager-iOS7.1/CKNameSortManager-iOS7.1.modulemap";
+				PRODUCT_MODULE_NAME = CKNameSortManager;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A86DDF6FB27E4918CE1E420B4E29545E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0.modulemap";
+				PRODUCT_MODULE_NAME = CKNameSortManager;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC216D5F1870DA87CA7923699E37A3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CKNameSortManager-iOS7.1";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS7.1/ResourceBundle-CKNameSortManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		0871CEA3DD95932D4FF833EE /* Release */ = {
+		B39C3DB55E74C70F70340BDD2E43D0E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKNameSortManager-iOS9.0/CKNameSortManager-iOS9.0.modulemap";
+				PRODUCT_MODULE_NAME = CKNameSortManager;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5F0C68C4DC50EFC8AA51D59D861F502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF44B743B5360B59A8A9F5FA4779C8A /* CKNameSortManager-iOS9.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CKNameSortManager-iOS9.0";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS9.0/ResourceBundle-CKNameSortManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		2123EBB51F7EA0B47FE2EDC6 /* Debug */ = {
+		C47920E2B71E28DCE7BC026BA125A9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE9CA0B4E4D17D371AF812C23BC474 /* CKNameSortManager-iOS7.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CKNameSortManager-iOS7.1";
+				INFOPLIST_FILE = "Target Support Files/CKNameSortManager-iOS7.1/ResourceBundle-CKNameSortManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CKNameSortManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C7D79CBB8509032DBF419862B592550F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7055B538685FE8794CD56B4E14CE5020 /* Pods-CKNameSortManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA50F0EC99F9A75A09C6776A5EB722E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		3171B852982914228BB3BD9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9BD60D7A58D3C44B48E9A5 /* Pods-CKNameSortManager_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CKNameSortManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3AE5C3C5CD1975539E26D98B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E94A9F2BEC21C82D043C4F11 /* Pods-CKNameSortManager_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CKNameSortManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6091747D78D57F1F7E3C9A11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8464CCBC80E2DB4ED8A3A646 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F673CA7F34DAFABFF98CFA9 /* Pods-CKNameSortManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CKNameSortManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		89C1F76EC23752E4EFDA4D18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B122632B06E179E548CAE42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		93DC0A8C626BF988D93DD276 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8176496992BAA6B44A1D2D98 /* Pods-CKNameSortManager_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CKNameSortManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0C9CFB78A85C0042EF9E66E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B479C908270C82254F010ACA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CKNameSortManager_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E90391C28541D2B52995CDFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65015D1CB710C9994836090F /* Pods-CKNameSortManager_Example-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Example-CKNameSortManager/Pods-CKNameSortManager_Example-CKNameSortManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F60F097E17067973522B3E50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A70A4800FAEBDC93AD9381C /* Pods-CKNameSortManager_Tests-CKNameSortManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CKNameSortManager_Tests-CKNameSortManager/Pods-CKNameSortManager_Tests-CKNameSortManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CKNameSortManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2248358334C9BD2F288E3FC3 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */ = {
+		12CAA4AD71CFD4B0189D65A8B651EE48 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS7.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AE5C3C5CD1975539E26D98B /* Debug */,
-				3171B852982914228BB3BD9F /* Release */,
+				8962EC729F6E14615B856E1B34D0F15D /* Debug */,
+				1C425FA9E3815D898F3E22F91B7080DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25456994AC75BC849B00D96F /* Build configuration list for PBXProject "Pods" */ = {
+		249EBC108C7353F6EF2D804D38DC0C11 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS9.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2123EBB51F7EA0B47FE2EDC6 /* Debug */,
-				0871CEA3DD95932D4FF833EE /* Release */,
+				B39C3DB55E74C70F70340BDD2E43D0E4 /* Debug */,
+				A86DDF6FB27E4918CE1E420B4E29545E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C76653A974D4A90819FCCB /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89C1F76EC23752E4EFDA4D18 /* Debug */,
-				E90391C28541D2B52995CDFC /* Release */,
+				CA50F0EC99F9A75A09C6776A5EB722E9 /* Debug */,
+				078DA044E9CE57ECB201ACF4367466F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64347AC721CD096FBFD651E1 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager-CKNameSortManager" */ = {
+		BBD0DD2D5F49F4CB7F925ACC703ECF8A /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS9.0-CKNameSortManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6091747D78D57F1F7E3C9A11 /* Debug */,
-				0725B52DEE4FCA9ED1B1B112 /* Release */,
+				52A116CE0F81C1F1C0FB05B4E649F38E /* Debug */,
+				B5F0C68C4DC50EFC8AA51D59D861F502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73AD2A1EE771F4A56F2413E5 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests-CKNameSortManager" */ = {
+		CC4B8EE44F2A7D3F7C6D64AD1CB25E7F /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60F097E17067973522B3E50 /* Debug */,
-				8B122632B06E179E548CAE42 /* Release */,
+				7A693C61E3104E65B7BC05771FCB0571 /* Debug */,
+				31F1995131C88EDCEAD4A7E904CF04E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB8B9BDB4CB4DB835F41697E /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Tests" */ = {
+		EE42A7D985AB2A33B4B296CB6AFAF466 /* Build configuration list for PBXNativeTarget "CKNameSortManager-iOS7.1-CKNameSortManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8464CCBC80E2DB4ED8A3A646 /* Debug */,
-				93DC0A8C626BF988D93DD276 /* Release */,
+				C47920E2B71E28DCE7BC026BA125A9FA /* Debug */,
+				AC216D5F1870DA87CA7923699E37A3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAC545FA4E3489F1AEC9185B /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example-CKNameSortManager-CKNameSortManager" */ = {
+		F3BD5E2976D8D03A4DE4226102B5A8D8 /* Build configuration list for PBXNativeTarget "Pods-CKNameSortManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B479C908270C82254F010ACA /* Debug */,
-				B0C9CFB78A85C0042EF9E66E /* Release */,
+				7A33A2A605B3F8B3D0CCF7C9D0B203A0 /* Debug */,
+				C7D79CBB8509032DBF419862B592550F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7E9C99608A656EC49BB1BBF1 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

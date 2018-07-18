@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'CKNameSortManager_Example', :exclusive => true do
+target 'CKNameSortManager_Example' do
   pod "CKNameSortManager", :path => "../"
 end
 
-target 'CKNameSortManager_Tests', :exclusive => true do
+target 'CKNameSortManager_Tests' do
   pod "CKNameSortManager", :path => "../"
 
   

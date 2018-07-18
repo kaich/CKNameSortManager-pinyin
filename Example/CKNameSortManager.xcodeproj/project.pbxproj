@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7AEBF63B6453A515AA67396E /* Pods_CKNameSortManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA235FE6CA525EE0A3756F2 /* Pods_CKNameSortManager_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E89ACC32ECEFDA427BE8B3CD /* Pods_CKNameSortManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D11352EDF451CCFC3B594D /* Pods_CKNameSortManager_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E224E9979C0266ACACD6EFC3 /* Pods_CKNameSortManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401BEDAA4DE8994844E2B9A7 /* Pods_CKNameSortManager_Example.framework */; };
+		E5C15534E73F074F9B9E09D9 /* Pods_CKNameSortManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B531C118728A0E2BC13AF5 /* Pods_CKNameSortManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AA235FE6CA525EE0A3756F2 /* Pods_CKNameSortManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEB7A3D1D171A36B7FF560C /* Pods-CKNameSortManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		401BEDAA4DE8994844E2B9A7 /* Pods_CKNameSortManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A900F8AA48F1B13D486157 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4A903E074DE66B58B20A1A73 /* Pods-CKNameSortManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5036350DEAB1DFAF28B77898 /* Pods-CKNameSortManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CKNameSortManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKNameSortManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7961A53BD14B635CFF79691F /* Pods-CKNameSortManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B02F5934F75E838DE908C4 /* Pods-CKNameSortManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6ACB115A886BAEA30B605C20 /* Pods-CKNameSortManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9D19065103594EEC90403C4B /* CKNameSortManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CKNameSortManager.podspec; path = ../CKNameSortManager.podspec; sourceTree = "<group>"; };
-		C9D11352EDF451CCFC3B594D /* Pods_CKNameSortManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB2A87D13D5450862ACAF413 /* Pods-CKNameSortManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF8E8BF6524DF1FE45A37F79 /* Pods-CKNameSortManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNameSortManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6B531C118728A0E2BC13AF5 /* Pods_CKNameSortManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNameSortManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF96F2C7DFE8AC36C3D32871 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E89ACC32ECEFDA427BE8B3CD /* Pods_CKNameSortManager_Example.framework in Frameworks */,
+				E224E9979C0266ACACD6EFC3 /* Pods_CKNameSortManager_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +86,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7AEBF63B6453A515AA67396E /* Pods_CKNameSortManager_Tests.framework in Frameworks */,
+				E5C15534E73F074F9B9E09D9 /* Pods_CKNameSortManager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F9B72D576F68542FB560A00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB115A886BAEA30B605C20 /* Pods-CKNameSortManager_Example.debug.xcconfig */,
+				68B02F5934F75E838DE908C4 /* Pods-CKNameSortManager_Example.release.xcconfig */,
+				1CEB7A3D1D171A36B7FF560C /* Pods-CKNameSortManager_Tests.debug.xcconfig */,
+				AF8E8BF6524DF1FE45A37F79 /* Pods-CKNameSortManager_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +112,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				629374EF3EC89B5B0D292F75 /* Pods */,
+				0F9B72D576F68542FB560A00 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C9D11352EDF451CCFC3B594D /* Pods_CKNameSortManager_Example.framework */,
-				3AA235FE6CA525EE0A3756F2 /* Pods_CKNameSortManager_Tests.framework */,
+				401BEDAA4DE8994844E2B9A7 /* Pods_CKNameSortManager_Example.framework */,
+				D6B531C118728A0E2BC13AF5 /* Pods_CKNameSortManager_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,17 +193,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		629374EF3EC89B5B0D292F75 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5036350DEAB1DFAF28B77898 /* Pods-CKNameSortManager_Example.debug.xcconfig */,
-				DB2A87D13D5450862ACAF413 /* Pods-CKNameSortManager_Example.release.xcconfig */,
-				7961A53BD14B635CFF79691F /* Pods-CKNameSortManager_Tests.debug.xcconfig */,
-				4A903E074DE66B58B20A1A73 /* Pods-CKNameSortManager_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,12 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CKNameSortManager_Example" */;
 			buildPhases = (
-				F736E6A50BC71842A735A564 /* Check Pods Manifest.lock */,
+				ADF464D1DA1E76649BE8751F /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				31B83DD8CD579CAB1B2D3DFC /* Embed Pods Frameworks */,
-				E88D943B8262EF603B449FD4 /* Copy Pods Resources */,
+				BB7DD807F666EC66AEBE5973 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,12 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CKNameSortManager_Tests" */;
 			buildPhases = (
-				E48FF26134BBDD4962BA44E0 /* Check Pods Manifest.lock */,
+				24DDB6AC1B23A5C414580156 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				776EBC07DC2BFB55BBAE6284 /* Embed Pods Frameworks */,
-				AE9CF84019C074F653104A83 /* Copy Pods Resources */,
+				6C1AD3444E2C5A35C1B6F12B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,94 +295,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31B83DD8CD579CAB1B2D3DFC /* Embed Pods Frameworks */ = {
+		24DDB6AC1B23A5C414580156 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CKNameSortManager_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		776EBC07DC2BFB55BBAE6284 /* Embed Pods Frameworks */ = {
+		6C1AD3444E2C5A35C1B6F12B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CKNameSortManager-iOS7.1/CKNameSortManager.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CKNameSortManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE9CF84019C074F653104A83 /* Copy Pods Resources */ = {
+		ADF464D1DA1E76649BE8751F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CKNameSortManager_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Tests/Pods-CKNameSortManager_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E48FF26134BBDD4962BA44E0 /* Check Pods Manifest.lock */ = {
+		BB7DD807F666EC66AEBE5973 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CKNameSortManager-iOS9.0/CKNameSortManager.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CKNameSortManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E88D943B8262EF603B449FD4 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F736E6A50BC71842A735A564 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKNameSortManager_Example/Pods-CKNameSortManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -512,7 +492,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5036350DEAB1DFAF28B77898 /* Pods-CKNameSortManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 6ACB115A886BAEA30B605C20 /* Pods-CKNameSortManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -533,7 +513,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB2A87D13D5450862ACAF413 /* Pods-CKNameSortManager_Example.release.xcconfig */;
+			baseConfigurationReference = 68B02F5934F75E838DE908C4 /* Pods-CKNameSortManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -554,7 +534,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5036350DEAB1DFAF28B77898 /* Pods-CKNameSortManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 1CEB7A3D1D171A36B7FF560C /* Pods-CKNameSortManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -577,7 +557,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A903E074DE66B58B20A1A73 /* Pods-CKNameSortManager_Tests.release.xcconfig */;
+			baseConfigurationReference = AF8E8BF6524DF1FE45A37F79 /* Pods-CKNameSortManager_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

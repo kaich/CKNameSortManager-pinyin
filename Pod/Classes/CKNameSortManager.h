@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "NSString+Pinyin.h"
+
 typedef id (^ DataSourceBlock)(NSInteger index);
 typedef NSInteger (^ DataSourceCountBlock)();
 typedef void(^DataSourceSortCompleteBlock)(NSArray * finalDataSource);
