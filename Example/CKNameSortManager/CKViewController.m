@@ -50,7 +50,7 @@
             return lv.integerValue > rv.integerValue;
         }
         return true;
-    }];
+    } completeBlock: nil];
     
     self.searchbar.showsCancelButton = YES;
 }

@@ -44,7 +44,7 @@ typedef BOOL (^DataSourceFilterBlock)(id model);
  *
  *  @param completeBlock sort complete block
  */
--(void) beginSortOrder:(DataSourceOrderBlock) orderBlock;
+-(void) beginSortOrder:(DataSourceOrderBlock) orderBlock completeBlock:(DataSourceSortCompleteBlock) completeBlock;
 
 //filter function
 /**

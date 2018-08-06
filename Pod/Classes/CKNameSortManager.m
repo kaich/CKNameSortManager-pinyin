@@ -163,7 +163,7 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
 }
 
 
--(void) beginSortOrder:(DataSourceOrderBlock) orderBlock
+-(void) beginSortOrder:(DataSourceOrderBlock) orderBlock completeBlock:(DataSourceSortCompleteBlock) completeBlock
 {
     _sortType = kOrder;
     NSMutableArray * originArray = [NSMutableArray array];
@@ -180,6 +180,17 @@ typedef NS_ENUM(NSUInteger, CKSortType) {
         return NSOrderedDescending;
     }];
     self.finalOriginalDataSource = @[sortedArray];
+    
+    dispatch_async(dispatch_get_main_queue(), ^(void) {
+        if(completeBlock)
+        {
+            completeBlock(self.finalOriginalDataSource);
+        }
+        else
+        {
+            [self.tableView reloadData];
+        }
+    });
 }
 
 -(NSArray *) groupTitles
